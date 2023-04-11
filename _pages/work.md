@@ -41,70 +41,42 @@ gallery3:
     title: "MASSICCC web app"
 ---
 
-**Project manager for Defense & Security research**, *INRIA* <span class="pull-right">2023 - </span>  
+**Assistant Reseracher**, *CEOSpace Tech* <span class="pull-right">2023 - </span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> Python, Machine learning, JavaScript, Docker</span>  
-Project manager for [INRIA's Defense and Security](https://www.inria.fr/fr/mission-securite-defense-bilan-frederique-segond) mission. I am in charge of the engineering aspects for the various projects lead by the D&S team, whose goal is to develop partnerships and research initiatives with entities working in the field of national defense and security (Defense ministry, gendarmerie, etc.). As a project manager, I supervise engineers working on projects that develop state of the art AI research for military and defense appplications, and I contribute to developments of algorithms, tools and web platforms. I also help deploy, maintain and transfer ownership of those projects to our partners.  
-<i class="fas fa-plus small-grey"></i> Full cycle project management for small agile teams working to deliver advanced research applications to industry partners  
-<i class="fas fa-plus small-grey"></i> Teach and setup best practices and standards in development, project management and DevOps  
-<i class="fas fa-plus small-grey"></i> Advise research teams on architecture choices and technological & engineering solutions  
+Assistant Reseracher for [European Training Network (ETN) MENELAOS](https://www.menelaos-nt.eu/) mission. Acquiring 3D geometry of the scene is essential for many applications in the areas of navigation, robotics, scene understanding, etc. Among the existing approaches, those using passive devices are of increased interest since they allow the use of compact, standard and low cost imaging systems like DSLR cameras. There are many depth cues that can be used to extract the 3D geometry. In single shot images, the depth is laying in the blur, shadows of objects, chromatic effects and shape distortions caused by lens aberrations, etc.  When multiple images are used, depth information comes from perspective change like in binocular systems or structures motion in video sequences. The physics of these effects is well known and more or less accurate mathematical models exist and are used by analytical image processing methods that are generally prone to heavy calculation.
+The entrance of the newcoming Deep Neural Networks (DNN) on the stage of signal processing has boosted the subject due to their capability to learn complex models that ingest multiple effects, not only single ones as analytical approaches are doing. The flexibility in learning and the fast processing once the training is accomplished make DNNs a very promising tool in building the 3D geometry of scenes from easy-to-acquire images.
+<i class="fas fa-plus small-grey"></i> Study of physical foundation for depth cues in images and evaluation of their potential in existing methods for depth mapping.  
+<i class="fas fa-plus small-grey"></i> Elaboration of DNN-based solutions for depth inference from single shot images by exploiting defocus and other depth cues.  
+<i class="fas fa-plus small-grey"></i> Definition of benchmarks for DNN training, validation and testing.
+<i class="fas fa-plus small-grey"></i> Evaluation of the accuracy of depth maps obtained with the DNNs using indoor and outdoor image collection.
 
 
-**Research engineer**, *INRIA* <span class="pull-right">2021 - 2022</span>  
+**Visiting Researcher**, *Ingeniería INSITU (INSITU Engineering)* <span class="pull-right">2022 - 2022</span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> Python, Scikit-learn, Datalog, JavaScript</span>  
-Research engineer, within the INRIA PARIETAL team, in charge of the [NeuroLang](https://neurolang.github.io/) project. NeuroLang is a probabilist query system for meta-analysis of neurological studies. NeuroLang implements a Datalog query solver to interpret and solve relational algebra queries on large neuroimaging datasets. I worked on NeuroLang to optimize the query solver and to develop a web application for the project.  
-<i class="fas fa-plus small-grey"></i> Contribution to open-source projects for the team  
-<i class="fas fa-plus small-grey"></i> Code review and engineering support for phd students and researchers  
-<i class="fas fa-plus small-grey"></i> Public presentation of the project, as well as contributing to research papers and white-papers  
+Research engineer, within the Ingeniería INSITU (INSITU Engineering) team. The aim of this resreach stay at University of Vigo was to explore the LiDAR and TOF cameras, devlope a real dataset for Depth from Defocus. The iDFD is opend source dataset that can be used for 3D indoor applications. [iDFD](https://github.com/saqibnaziir/iDFD)
+<i class="fas fa-plus small-grey"></i> Contribution to open-source projects for the team.   
+<i class="fas fa-plus small-grey"></i> Devlopment of iDFD dataset.
+<i class="fas fa-plus small-grey"></i> Public presentation of the project, as well as contributing to research papers.
 
 <span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/NeuroLang/NeuroLang)</span>
 <span class="small-grey"><i class="fab fa-fw fa-chrome" aria-hidden="true"></i>[Web app](http://neurolang-interne.saclay.inria.fr/)</span>
 {% include gallery id="gallery1" caption="The Neurolang application" %}
 
 
-**Research engineer**, *INRIA* <span class="pull-right">2018 - 2020</span>  
+**Visiting Researcher**, *CiTIUS (Centro Singular de Investigación en Tecnoloxías Intelixentes)* <span class="pull-right">2021 - 2021</span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> Angular, Python, D3.js</span>  
-Research engineer within the CNRS, in charge of the [Cartolabe](https://cartolabe.fr/) project. The Cartolabe web application lets users explore large collections of textual data through an interactive 2D map. AI algorithms analyze the textual data to produce a 2D representation of the corpus showing semantic similarities. It uses advanced visualization techniques to rapidly display millions of points in the browser and allow users to search, filter and zoom through the data.  
-<i class="fas fa-plus small-grey"></i> Develop data analysis and visualization software for large corpuses of textual data (Wikipedia, scientific publications, …)  
-<i class="fas fa-plus small-grey"></i> Lead developer and project manager  
-<i class="fas fa-plus small-grey"></i> Contribution to scientific articles  
+Research engineer within the CiTIUS, working on [European Training Network (ETN) MENELAOS](https://www.menelaos-nt.eu/) project. This collaboration was done between CiTIUS team for the development of 2HDED:NET. 
+<i class="fas fa-plus small-grey"></i> Development of 2HDED:NET. 
+<i class="fas fa-plus small-grey"></i> Training and testing of 2HDED:NET on NYU-Depth v2 and Make3D datasets for DFD and Image deblurring. 
+<i class="fas fa-plus small-grey"></i> Public presentation of the project, as well as contributing to research papers. 
 
 <span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://gitlab.inria.fr/cartolabe/cartolabe-visu)</span>
 <span class="small-grey"><i class="fab fa-fw fa-chrome" aria-hidden="true"></i>[Web app](https://cartolabe.fr/)</span>
 {% include gallery id="gallery2" caption="The Cartolabe application" %}
 
 
-**Research engineer**, *INRIA* <span class="pull-right">2015 - 2017</span>  
-<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> Angular, Python, R, D3.js</span>  
-Research engineer working with a mixed INRIA - Université Paris Saclay team. In charge of developing a web application for statistical data analysis. The web platform lets users upload their data on a server, launch a data processing task on a cluster and retrieve and view the results directly in the browser once the task is finished.  
-<i class="fas fa-plus small-grey"></i> Fullstack development of the application from scratch  
-<i class="fas fa-plus small-grey"></i> Project management, principal architect and developer  
-<i class="fas fa-plus small-grey"></i> Public presentation and demonstration of the web app to scientific users  
-{% include gallery id="gallery3" caption="The MASSICCC application" %}
 
-
-**Full stack engineer**, *WDS, A Xerox company* <span class="pull-right">2014 - 2015</span>  
-<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> Java, JavaScript, Redis, PlayFramework</span>  
-Working within an international team of developers, I helped develop an intelligent virtual agent for call centers. This virtual agent relies on machine learning algorithms to solve problems and find the most relevant information and solutions for call center operators.  
-<i class="fas fa-plus small-grey"></i> Implementation of machine learning algorithms (classification, clustering, search algorithms, …) in collaboration with researchers from the Xerox Research Center Europe.  
-<i class="fas fa-plus small-grey"></i> Fullstack development of both front and backend (Java, Angular)  
-<i class="fas fa-plus small-grey"></i> Following agile best pratices (peer programming, test driven development, continuous integration)  
-
-
-**Full stack developer**, *7 Circles* <span class="pull-right">2011 - 2014</span>  
-<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> Java, JavaScript, ElasticSearch, MongoDB</span>  
-Fullstack developer for a startup developing specialized social networks.  
-<i class="fas fa-plus small-grey"></i> Fullstack development (Java, GWT)  
-<i class="fas fa-plus small-grey"></i> NoSQL databases and search engines for data indexation  
-
-
-**Software engineer**, *Valtech* <span class="pull-right">2010 - 2011</span>  
-<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> Java, JavaScript, Spring, GWT</span>  
-Junior software engineer at a consulting agency, developing mostly web based applications for various clients.  
-<i class="fas fa-plus small-grey"></i> Conception and implementation of full software solutions adapted to the client's needs  
-<i class="fas fa-plus small-grey"></i> Following Agile methodology  
-
-
-**Machine learning internship**, *CEA* <span class="pull-right">2009</span>  
+**Machine learning internship**, *NCIA* <span class="pull-right">2009</span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> Perl, C, Moses, Giza++</span>  
 End of study intership in a research lab working on natural language processing. Implementation of a statistical translation tool for text messages.  
 <i class="fas fa-plus small-grey"></i> Implementation of a state of the art statistical translation tool  
