@@ -1,9 +1,9 @@
-# Jonas Renault's personnal website
+# Saqib Nazir's personnal website
 
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
 [![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
 
-This is the repository for my personal website. Visit it at [https://jonasrenault.github.io](https://jonasrenault.github.io)
+This is the repository for my personal website. Visit it at [https://saqibnaziir.github.io/](https://saqibnaziir.github.io/)
 
 ## Credits
 
