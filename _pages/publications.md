@@ -10,13 +10,17 @@ classes: wide
 {: style="font-size:.85em; color: #7a8288;"}
 ---
 
-**Cartolabe: A web-based Scalable Visualization of Large Document Collections**, *IEEE CG&A, 2021*  
-Philippe Caillou, Jonas Renault, Jean-Daniel Fekete, Anne-Catherine Letournel, Michèle Sebag  
-[https://hal.inria.fr/hal-02499006v1](https://hal.inria.fr/hal-02499006v1)
+**Depth Estimation and Image Restoration by Deep Learning from Defocused Images**, *IEEE Trans. Computational Imaging, 2023*  
+Saqib Nazir, Lorenzo Vaquero, Manuel Mucientes, Víctor M Brea, Daniela Coltuc
+[Link](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3nLzb24AAAAJ&citation_for_view=3nLzb24AAAAJ:LkGwnXOMwfcC)
 
-**MASSICCC: A SaaS Platform for Clustering and Co-Clustering of Mixed Data**, *Workshop MixStatSeq, 2018*  
-Christophe Biernacki, Benjamin Auder, Gilles Celeux, Josselin Demont, Florent Langrognet, Vincent Kubicki, Christian Poli, Jonas Renault  
-[https://hal.inria.fr/hal-01949175v1](https://hal.inria.fr/hal-01949175v1)
+**2HDED: Net for Joint Depth Estimation and Image Deblurring from a Single Out-of-Focus Image**, *IEEE International Conference on Image Processing (ICIP), 2022*  
+Saqib Nazir, Lorenzo Vaquero, Manuel Mucientes, Víctor M Brea, Daniela Coltuc 
+[ICIP](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9897352)
+
+**Edge-preserving smoothing regularization for monocular depth estimation**, * 26th International Conference on Automation and Computing (ICAC), 2021*  
+Saqib Nazir, Daniela Coltuc 
+[ICIP](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9594153)
 
 
 ### Humanities and Social Sciences
