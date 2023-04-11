@@ -20,15 +20,16 @@ Saqib Nazir, Lorenzo Vaquero, Manuel Mucientes, Víctor M Brea, Daniela Coltuc
 
 **Edge-preserving smoothing regularization for monocular depth estimation**, * 26th International Conference on Automation and Computing (ICAC), 2021*  
 Saqib Nazir, Daniela Coltuc 
-[ICIP](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9594153)
+[ICAC](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9594153)
 
 
-### Humanities and Social Sciences
-{: style="font-size:.85em; color: #7a8288;"}
----
+**Cuckoo optimization algorithm based job scheduling using cloud and fog computing in smart grid**, * INCoS, 2018*  
+Saqib Nazir, Sundas Shafiq, Zafar Iqbal, Muhammad Zeeshan, Subhan Tariq, Nadeem Javaid
+[INCoS]([https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9594153](https://link.springer.com/chapter/10.1007/978-3-319-98557-2_4))
 
-**Trouble dans le sujet. Subjectivation, performativité & critique chez Judith Butler**, *2020*  
-Mémoire de master philosophie 2e année, dir. Judith Revel, Université Paris Nanterre
 
-**La nature du temps dans la pensée de Jacques Rancière**, *2019*  
-Mémoire de master philosophie 1e année, dir. Patrice Maniglier, Université Paris Nanterre
+**Priority based load balancing in cloud and fog based systems**, * BWCCA, 2018*  
+Subhan Tariq, Nadeem Javaid, Mahad Majeed, Fahad Ahmed, Saqib Nazir
+[BWCCA]([https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9594153](https://link.springer.com/chapter/10.1007/978-3-030-02613-4_65))
+
+
