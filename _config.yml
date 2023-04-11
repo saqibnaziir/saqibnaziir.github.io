@@ -26,7 +26,7 @@ domain: saqibnaziir.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jonasrenault.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jonasrza
-github_username:  jonasrenault
+github_username:  saqibnaziir
 
 # Build settings
 # theme: minima
@@ -42,23 +42,23 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Author
 author:
-  name             : "Jonas Renault"
+  name             : "Saqib Nazir"
   avatar           : "/images/bio-photo-2.jpeg"
-  bio              : "Research Engineer / Senior Fullstack Developer"
-  location         : "France"
+  bio              : "PhD. / Assistant Resreacher"
+  location         : "Romania"
   employer         :
-  email            : "jonasrenault@gmail.com"
-  github           : "jonasrenault"
+  email            : "saqib.nazir@upb.ro"
+  github           : "saqibnaziir"
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/jonasrenault"
+      url: "https://github.com/saqibnaziir"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/jonasrza"
+      url: "https://instagram.com/saqialii"
 
 
 # Defaults
