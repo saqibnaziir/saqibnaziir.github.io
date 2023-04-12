@@ -22,9 +22,11 @@ Please take a look at [some of my work](/work).
 ---
 
 ## News
-- [March 2023] MenelaosNT Forum 2023 [Forum](https://andrei2407.github.io/menelaos_nt_forum_bucharest/)
-- [October 2022] 5th European Machine Vision Forum, Cork, Ireland 2022
-- [October 2023] IEEE International Conference on Image Processing, Bordeaux, France 2022
+- [Mar 2023] MenelaosNT Forum, Bucharest, Romania [Forum](https://andrei2407.github.io/menelaos_nt_forum_bucharest/)
+- [Oct 2022] 5th European Machine Vision Forum, Cork, Ireland
+- [Oct 2022] IEEE International Conference on Image Processing, Bordeaux, France
+- [Feb 2022] Visiting Reseracher @ INSITU, University of Vigo, Spain [INSITU](https://ingenieriainsitu.com/en/)
+- [Sep 2021] Visiting Reseracher @ CiTIUS, University Santiago De Compostela, Spain [CiTIUS](https://citius.gal/)
 
 
 [Read more ..]
