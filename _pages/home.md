@@ -26,6 +26,7 @@ Please take a look at [some of my work](/work).
 - [Oct 2022] 5th European Machine Vision Forum, Cork, Ireland
 - [Oct 2022] IEEE International Conference on Image Processing, Bordeaux, France
 - [Feb 2022] Visiting Reseracher @ INSITU, University of Vigo, Spain [INSITU](https://ingenieriainsitu.com/en/)
+- [Feb 2022] PhD Forum Sensing Anywhere Innovation, University of Siegen, Germany [Forum](http://phdforum.zess.uni-siegen.de/)
 - [Sep 2021] Visiting Reseracher @ CiTIUS, University Santiago De Compostela, Spain [CiTIUS](https://citius.gal/)
 
 
