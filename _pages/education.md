@@ -7,7 +7,7 @@ classes: wide
 ---
 
 
-{: style="font-size:.85em; color: #7a8288;"}
+
 ---
 **PhD.**, *2021-2023*  
 UPB, *Bucharest, Romania*
