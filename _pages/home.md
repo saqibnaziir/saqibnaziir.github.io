@@ -22,11 +22,10 @@ Please take a look at [some of my work](/work).
 ---
 
 ## News
-- [Apr 2023] TPC member of ICCCN 2023
-- [Mar 2023] TPC member of MedComNet 2023
-- [Mar 2023] TPC member of IEEE/ACM IWQoS 2023
-- [Feb 2023] TPC member of Workshop on ns-3 2023
-- [Feb 2023] TPC member of IEEE WoWMoM 2023
+- [March 2023] MenelaosNT Forum 2023 [Forum](https://andrei2407.github.io/menelaos_nt_forum_bucharest/)
+- [October 2022] 5th European Machine Vision Forum, Cork, Ireland 2022
+- [October 2023] IEEE International Conference on Image Processing, Bordeaux, France 2022
+
 
 [Read more ..]
 
