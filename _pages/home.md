@@ -19,4 +19,15 @@ I enjoy working with multidisciplinary teams from various backgrounds. I have ex
 
 Please take a look at [some of my work](/work).
 
+---
+
+## News
+- [Apr 2023] TPC member of ICCCN 2023
+- [Mar 2023] TPC member of MedComNet 2023
+- [Mar 2023] TPC member of IEEE/ACM IWQoS 2023
+- [Feb 2023] TPC member of Workshop on ns-3 2023
+- [Feb 2023] TPC member of IEEE WoWMoM 2023
+
+[Read more ..]
+
 Please contact me with any questions (email on the left).
