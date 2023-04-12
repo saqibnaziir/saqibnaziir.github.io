@@ -15,7 +15,7 @@ Saqib Nazir, Lorenzo Vaquero, Manuel Mucientes, Víctor M Brea, Daniela Coltuc
 
 **iDFD: A Dataset Annotated for Depth and Defocus**, *SCIA, 2023*  
 Saqib Nazir, Zhouyan Qiu, Daniela Coltuc, Joaquın Martınez-Sanchez, Pedro Arias
-[SCIA](https://github.com/saqibnaziir/iDFD))
+[SCIA](https://github.com/saqibnaziir/iDFD)
 
 
 **2HDED: Net for Joint Depth Estimation and Image Deblurring from a Single Out-of-Focus Image**, *IEEE International Conference on Image Processing (ICIP), 2022*  
