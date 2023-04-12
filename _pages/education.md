@@ -6,23 +6,17 @@ author_profile: true
 classes: wide
 ---
 
-### Computer Science
+
 {: style="font-size:.85em; color: #7a8288;"}
 ---
+**PhD.**, *2021-2023*  
+UPB, *Bucharest, Romania*
 
-**Master's degree in computer science engineering and applied mathematics**, *2006-2009*  
-ENSEEIHT, *Toulouse, France*
+**Master's degree in computer science and Ai**, *2017-2020*  
+COMSATS, *Isb*
 
-**Master's degree in artificial intelligence**, *2009*  
-Université Paul Sabatier, *Toulouse, France*
+**Bachlor's degree in computer science**, *2012-2016*  
+COMSATS, *Isb*
 
 
-### Humanities and Social Sciences
-{: style="font-size:.85em; color: #7a8288;"}
----
 
-**Master's degree in philosophy**, *2018-2020*  
-Université Paris Nanterre, *Nanterre, France*
-
-**Bachelor in visual arts**, *2015-2018*  
-Université Paris 1 Panthéon-Sorbonne, *Paris, France*
