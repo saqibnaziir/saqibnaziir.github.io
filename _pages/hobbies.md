@@ -5,11 +5,10 @@ author_profile: true
 classes: wide
 ---
 
-Besides my work, I have a keen interest for philosophy. I obtained a master's degre in philosophy in 2020, and this has helped me to broaden my horizons and to be able to communicate better with the people I work with. I specialize in contemporary political philosophy, critical social theory, as well as problems about subject and body in feminist philosophy.
+Besides my work, I have a keen interest for philosophy.
 
-On my spare time, I sometimes like to draw; I obtained a bachelor's of visual arts in 2018. I also like to [read a lot](https://www.goodreads.com/user/show/91507153-jonas-renault).
 
-I enjoy traveling to forein countries. I've lived abroad for a few years already, and I speak english fluently.
+I enjoy traveling to forein countries. I've lived abroad for a few years already.
 
 <div class="gallery-scroll">
   <a href="/images/sports/travels-1.jpg" title="Hiking the Anapurnas in Nepal" class="image-popup">
