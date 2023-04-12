@@ -6,13 +6,17 @@ author_profile: true
 classes: wide
 ---
 
-### 
-{: style="font-size:.85em; color: #7a8288;"}
+
 ---
 
 **Depth Estimation and Image Restoration by Deep Learning from Defocused Images**, *IEEE Trans. Computational Imaging, 2023*  
 Saqib Nazir, Lorenzo Vaquero, Manuel Mucientes, Víctor M Brea, Daniela Coltuc
 [TCI](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3nLzb24AAAAJ&citation_for_view=3nLzb24AAAAJ:LkGwnXOMwfcC)
+
+**iDFD: A Dataset Annotated for Depth and Defocus**, *SCIA, 2023*  
+Saqib Nazir, Zhouyan Qiu, Daniela Coltuc, Joaquın Martınez-Sanchez, Pedro Arias
+[SCIA](https://github.com/saqibnaziir/iDFD))
+
 
 **2HDED: Net for Joint Depth Estimation and Image Deblurring from a Single Out-of-Focus Image**, *IEEE International Conference on Image Processing (ICIP), 2022*  
 Saqib Nazir, Lorenzo Vaquero, Manuel Mucientes, Víctor M Brea, Daniela Coltuc 
