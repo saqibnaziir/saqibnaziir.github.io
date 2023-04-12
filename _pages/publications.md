@@ -22,6 +22,10 @@ Saqib Nazir, Zhouyan Qiu, Daniela Coltuc, Joaquın Martınez-Sanchez, Pedro Aria
 Saqib Nazir, Lorenzo Vaquero, Manuel Mucientes, Víctor M Brea, Daniela Coltuc 
 [ICIP](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9897352)
 
+**DFD and Image Restoration using DNN**, *5th European Machine Vision Forum, 2022*  
+Saqib Nazir 
+[EMVA](https://emvf-2022.emva.b2match.io/components/19272?session=c2Vzc2lvbjoxMjc5NDE%3D)
+
 **Edge-preserving smoothing regularization for monocular depth estimation**, * 26th International Conference on Automation and Computing (ICAC), 2021*  
 Saqib Nazir, Daniela Coltuc 
 [ICAC](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9594153)
