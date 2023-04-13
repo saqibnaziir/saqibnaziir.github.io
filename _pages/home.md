@@ -6,7 +6,8 @@ author_profile: true
 classes: wide
 ---
 
-Hi! I am Saqib Nazir, I am a PhD student and assistant researcher at CEOSpace Tech. I specilized in the field of Artificial Intelligence (AI), Deep Learning, and Machine Learning. My primary area of research revolves around developing innovative methods for Monocular depth estimation using defocus cues.
+I am a research scientist and a PhD student at CEOSpace Tec working on 3D computer vision and graphics.
+I specilized in the field of Artificial Intelligence (AI), Deep Learning, and Machine Learning. My primary area of research revolves around developing innovative methods for Monocular depth estimation using defocus cues.
 
 Currently, I am working on a project with the European Union titled "European Training Network (ETN) MENELAOS NT". The project aims to develop advanced technologies for 3D imaging, perception, and interaction with the environment using computer vision, machine learning, and robotics.
 
