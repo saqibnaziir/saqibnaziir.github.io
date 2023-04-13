@@ -11,8 +11,8 @@ Besides my work, I have a keen interest for philosophy.
 I enjoy traveling to forein countries. I've lived abroad for a few years already.
 
 <div class="gallery-scroll">
-  <a href="/images/sports/travels-1.jpg" title="Hiking the Anapurnas in Nepal" class="image-popup">
-    <img class="gallery-img" src="/images/sports/thumbnails/travels-1.JPG" alt="Hiking the Anapurnas in Nepal">
+  <a href="/images/sports/travels-1.jpg" title="Presenting at EMVA 2022, Cork Ireland" class="image-popup">
+    <img class="gallery-img" src="/images/sports/thumbnails/travels-1.JPG" alt="Presenting at EMVA 2022, Cork Ireland">
   </a>
   <a href="/images/sports/travels-2.jpg" title="Hiking the Anapurnas in Nepal" class="image-popup">
     <img class="gallery-img" src="/images/sports/thumbnails/travels-2.JPG" alt="Hiking the Anapurnas in Nepal">
