@@ -5,7 +5,7 @@ author_profile: true
 classes: wide
 ---
 
-Besides my work, I have a keen interest for philosophy.
+Besides my work, I have a keen interest for philosophy, and reading books. 
 
 
 I enjoy traveling to forein countries. I've lived abroad for a few years already.
