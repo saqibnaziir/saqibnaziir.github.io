@@ -76,7 +76,7 @@ Research engineer within the CiTIUS, working on [European Training Network (ETN)
 
 <span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://gitlab.inria.fr/cartolabe/cartolabe-visu)</span>
 <span class="small-grey"><i class="fab fa-fw fa-chrome" aria-hidden="true"></i>[Web app](https://cartolabe.fr/)</span>
-{% include gallery id="gallery2" caption="The Cartolabe application" %}
+{% include gallery id="gallery2" caption="2HDED:NET for Joint DFD and Image Deblurring" %}
 
 
 
