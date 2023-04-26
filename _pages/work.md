@@ -80,7 +80,7 @@ Research engineer within the CiTIUS, working on [European Training Network (ETN)
 
 
 
-**Machine learning internship**, *NCIA* <span class="pull-right">2009</span>  
+**Machine learning internship**, *NCIA* <span class="pull-right">2017 - 2020</span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>  AI, Deep Learning, Machine Vision, Python</span>  
 End of study intership in a research lab working on natural language processing. Implementation of a statistical translation tool for text messages.  
 <i class="fas fa-plus small-grey"></i> Implementation of a state of the art statistical translation tool  
