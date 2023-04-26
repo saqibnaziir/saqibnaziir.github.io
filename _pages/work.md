@@ -61,8 +61,8 @@ Research engineer, within the Ingeniería INSITU (INSITU Engineering) team. The 
 <i class="fas fa-plus small-grey"></i> Devlopment of iDFD dataset.
 <i class="fas fa-plus small-grey"></i> Public presentation of the project, as well as contributing to research papers.
 
-<span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/NeuroLang/NeuroLang)</span>
-<span class="small-grey"><i class="fab fa-fw fa-chrome" aria-hidden="true"></i>[Web app](http://neurolang-interne.saclay.inria.fr/)</span>
+<span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/saqibnaziir/iDFD)</span>
+<span class="small-grey"><i class="fab fa-fw fa-chrome" aria-hidden="true"></i>[Web app](https://github.com/saqibnaziir/iDFD)</span>
 {% include gallery id="gallery1" caption="iDFD dataset" %}
 
 
@@ -74,8 +74,8 @@ Research engineer within the CiTIUS, working on [European Training Network (ETN)
 <i class="fas fa-plus small-grey"></i> Training and testing of 2HDED:NET on NYU-Depth v2 and Make3D datasets for DFD and Image deblurring. 
 <i class="fas fa-plus small-grey"></i> Public presentation of the project, as well as contributing to research papers. 
 
-<span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://gitlab.inria.fr/cartolabe/cartolabe-visu)</span>
-<span class="small-grey"><i class="fab fa-fw fa-chrome" aria-hidden="true"></i>[Web app](https://cartolabe.fr/)</span>
+<span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://ieeexplore.ieee.org/document/9897352)</span>
+<span class="small-grey"><i class="fab fa-fw fa-chrome" aria-hidden="true"></i>[Web app](https://ieeexplore.ieee.org/document/9897352)</span>
 {% include gallery id="gallery2" caption="2HDED:NET for Joint DFD and Image Deblurring" %}
 
 
