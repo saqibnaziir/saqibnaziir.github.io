@@ -5,14 +5,14 @@ permalink: /work/
 author_profile: true
 classes: wide
 gallery1:
-  - url: /images/projects/neurolang-1.jpg
-    image_path: /images/projects/neurolang-1.jpg
-    alt: "Neurolang web app screenshot"
-    title: "Neurolang web app"
-  - url: /images/projects/neurolang-2.jpg
-    image_path: /images/projects/neurolang-2.jpg
-    alt: "Neurolang web app screenshot"
-    title: "Neurolang web app"
+  - url: /images/projects/vigo1.png
+    image_path: /images/projects/vigo1.png
+    alt: "iDFD"
+    title: "iDFD"
+  - url: /images/projects/vigo2.png
+    image_path: /images/projects/vigo2.png
+    alt: "iDFD-samples"
+    title: "iDFD-samples"
 gallery2:
   - url: /images/projects/cartolabe-1.jpg
     image_path: /images/projects/thumbs/cartolabe-1.jpg
