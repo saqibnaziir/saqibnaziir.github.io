@@ -63,7 +63,7 @@ Research engineer, within the Ingeniería INSITU (INSITU Engineering) team. The 
 
 <span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/NeuroLang/NeuroLang)</span>
 <span class="small-grey"><i class="fab fa-fw fa-chrome" aria-hidden="true"></i>[Web app](http://neurolang-interne.saclay.inria.fr/)</span>
-{% include gallery id="gallery1" caption="The Neurolang application" %}
+{% include gallery id="gallery1" caption="iDFD dataset" %}
 
 
 **Visiting Researcher**, *CiTIUS (Centro Singular de Investigación en Tecnoloxías Intelixentes)* <span class="pull-right">2021 - 2021</span>  
