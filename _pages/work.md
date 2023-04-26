@@ -22,8 +22,8 @@ gallery2:
     image_path: /images/projects/thumbs/citius2.PNG
     alt: "2HDED:NET"
     title: "2HDED:NET"
-  - url: /images/projects/citius3.PNG
-    image_path: /images/projects/thumbs/citius3.PNG
+  - url: /images/projects/citius3.png
+    image_path: /images/projects/thumbs/citius3.png
     alt: "MENELAOS"
     title: "MENELAOS"
 gallery3:
