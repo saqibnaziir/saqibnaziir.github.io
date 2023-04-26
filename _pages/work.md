@@ -18,8 +18,8 @@ gallery2:
     image_path: /images/projects/thumbs/citius1.PNG
     alt: "Menelaos Summer School @ CiTIUS"
     title: "Menelaos Summer School @ CiTIUS"
-  - url: /images/projects/citius2.PNG
-    image_path: /images/projects/thumbs/citius2.PNG
+  - url: /images/projects/citius2.png
+    image_path: /images/projects/thumbs/citius2.png
     alt: "2HDED:NET"
     title: "2HDED:NET"
   - url: /images/projects/citius3.png
