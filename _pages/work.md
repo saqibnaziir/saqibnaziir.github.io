@@ -14,18 +14,18 @@ gallery1:
     alt: "iDFD-samples"
     title: "iDFD-samples"
 gallery2:
-  - url: /images/projects/cartolabe-1.jpg
-    image_path: /images/projects/thumbs/cartolabe-1.jpg
-    alt: "Cartolabe web app screenshot"
-    title: "Cartolabe web app"
-  - url: /images/projects/cartolabe-2.jpg
-    image_path: /images/projects/thumbs/cartolabe-2.jpg
-    alt: "Cartolabe web app screenshot"
-    title: "Cartolabe web app"
-  - url: /images/projects/cartolabe-3.jpg
-    image_path: /images/projects/thumbs/cartolabe-3.jpg
-    alt: "Cartolabe web app screenshot"
-    title: "Cartolabe web app"
+  - url: /images/projects/citius1.PNG
+    image_path: /images/projects/thumbs/citius1.PNG
+    alt: "Menelaos Summer School @ CiTIUS"
+    title: "Menelaos Summer School @ CiTIUS"
+  - url: /images/projects/citius2.PNG
+    image_path: /images/projects/thumbs/citius2.PNG
+    alt: "2HDED:NET"
+    title: "2HDED:NET"
+  - url: /images/projects/citius3.PNG
+    image_path: /images/projects/thumbs/citius3.PNG
+    alt: "MENELAOS"
+    title: "MENELAOS"
 gallery3:
   - url: /images/projects/massiccc-1.jpg
     image_path: /images/projects/thumbs/massiccc-1.jpg
