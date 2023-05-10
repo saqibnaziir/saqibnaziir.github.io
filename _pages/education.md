@@ -17,9 +17,10 @@ COMSATS, *Isb*
 
 **Bachlor's degree in computer science**, *2012-2016*  
 COMSATS, *Isb*
+
+
 ---
-title: "Awards"
-classes: wide
+**Awards**
 ---
 **Marie Skłodowska-Curie Actions**, *2020-2024*  
 UPB, *Bucharest, Romania*
@@ -29,7 +30,7 @@ COMSATS, *Isb*
 
 **Full Student Scholorship**, *2012-2016*  
 COMSATS, *Isb*
----
+
 
 
 
