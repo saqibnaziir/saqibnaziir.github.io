@@ -11,8 +11,8 @@ Besides my work, I have a keen interest for philosophy, and reading books.
 I enjoy traveling to forein countries. I've lived abroad for a few years already.
 
 <div class="gallery-scroll">
-  <a href="/images/sports/travels-1.JPG" title="Presenting at EMVA 2022, Cork Ireland" class="image-popup">
-    <img class="gallery-img" src="/images/sports/travels-1.JPG" alt="Presenting at EMVA 2022, Cork Ireland">
+  <a href="/images/sports/travels-1.jpg" title="Presenting at EMVA 2022, Cork Ireland" class="image-popup">
+    <img class="gallery-img" src="/images/sports/travels-1.jpg" alt="Presenting at EMVA 2022, Cork Ireland">
   </a>
   <a href="/images/sports/travels-2.JPG" title="Porto" class="image-popup">
     <img class="gallery-img" src="/images/sports/travels-2.JPG" alt="Porto">
