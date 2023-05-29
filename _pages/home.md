@@ -6,17 +6,15 @@ author_profile: true
 classes: wide
 ---
 
-I am a research scientist and a PhD student at CEOSpace Tec working on 3D computer vision and graphics.
-I specilized in the field of Artificial Intelligence (AI), Deep Learning, and Machine Learning. My primary area of research revolves around developing innovative methods for Monocular depth estimation using defocus cues.
+I am a research scientist and a doctoral candidate at CEOSpace Tech, specializing in the field of 3D computer vision and graphics. My primary research interests lie in Artificial Intelligence (AI), Deep Learning, and Machine Learning, with a particular focus on developing innovative approaches for Monocular depth estimation utilizing defocus cues.
 
-Currently, I am working on a project with the European Union titled "European Training Network (ETN) MENELAOS NT". The project aims to develop advanced technologies for 3D imaging, perception, and interaction with the environment using computer vision, machine learning, and robotics.
+At present, I am engaged in a collaborative project funded by the European Union entitled "European Training Network (ETN) MENELAOS NT." The objective of this project is to advance technologies in the areas of 3D imaging, perception, and environmental interaction, employing computer vision, machine learning, and robotics.
 
-As a part of my work, I published several papers in top-tier conferences and journals in the field of Computer Vision and Machine Learning. My research contributions have been widely recognized and have earned him prestigious awards and accolades.
+Throughout my career, I have made significant contributions to the field of Computer Vision and Machine Learning, as evidenced by the publication of numerous papers in esteemed conferences and journals. These research endeavors have garnered widespread recognition and prestigious awards.
 
-Prior to joining CEOSpace Tech, I completed my Bachelor's degree in Computer Science from a renowned university. I then pursued a Master's degree in Artificial Intelligence, where he focused on developing advanced deep learning models for object detection and recognition. After completing my Master's degree, I worked as a research assistant at a leading research institute, where he gained significant experience in developing state-of-the-art machine learning models.
+Prior to joining CEOSpace Tech, I obtained a Bachelor's degree in Computer Science from a renowned university. Subsequently, I pursued a Master's degree in Artificial Intelligence, where my focus revolved around the development of sophisticated deep learning models for object detection and recognition. Following the completion of my Master's degree, I served as a research assistant at a prominent research institute, thereby acquiring substantial expertise in crafting cutting-edge machine learning models.
 
-
-I enjoy working with multidisciplinary teams from various backgrounds. I have experience working with small, agile teams to deliver software that is problem oriented and reliable. I am an independent engineer and I value initiative, knowledge sharing, good coding practices.
+I thoroughly enjoy collaborating with interdisciplinary teams encompassing diverse backgrounds. My experience encompasses working alongside small, agile teams to deliver problem-oriented and dependable software solutions. As an autonomous engineer, I highly value proactivity, knowledge sharing, and the adherence to sound coding practices.
 
 Please take a look at [some of my work](/work).
 
