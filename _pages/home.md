@@ -6,7 +6,8 @@ author_profile: true
 classes: wide
 ---
 
-I am a research scientist and a doctoral candidate at CEOSpace Tech, specializing in the field of 3D computer vision and graphics. My primary research interests lie in Artificial Intelligence (AI), Deep Learning, and Machine Learning, with a particular focus on developing innovative approaches for Monocular depth estimation utilizing defocus cues.
+Hi, there! I'm Saqib. I am a Ph.D. student in Computer Science at University Politechnica Bucharest, working with Prof. Daniela Coltuc and Mihai Datcu as a member of the CEOSpace Tech. lab. 
+I am specializing in the field of 3D computer vision and graphics. My primary research interests lie in Artificial Intelligence (AI), Deep Learning, and Machine Learning, with a particular focus on developing innovative approaches for Monocular depth estimation utilizing defocus cues.
 
 At present, I am engaged in a collaborative project funded by the European Union entitled "European Training Network (ETN) MENELAOS NT." The objective of this project is to advance technologies in the areas of 3D imaging, perception, and environmental interaction, employing computer vision, machine learning, and robotics.
 
