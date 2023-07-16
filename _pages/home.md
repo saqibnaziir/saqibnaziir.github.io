@@ -22,6 +22,7 @@ Please take a look at [some of my work](/work).
 ---
 
 ## News
+- [Apr 2023] Scandinavian Conference on Image Analysis 2023, Lapland, Finland [SCIA](https://sites.google.com/view/scia2023)
 - [Mar 2023] MenelaosNT Forum, Bucharest, Romania [Forum](https://andrei2407.github.io/menelaos_nt_forum_bucharest/)
 - [Oct 2022] 5th European Machine Vision Forum, Cork, Ireland
 - [Oct 2022] IEEE International Conference on Image Processing, Bordeaux, France
