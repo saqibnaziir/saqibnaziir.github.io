@@ -80,9 +80,13 @@ Research engineer within the CiTIUS, working on [European Training Network (ETN)
 
 
 
-**Machine learning internship**, *NCIA* <span class="pull-right">2017 - 2020</span>  
+**Machine learning internship**, *MIDL-NCAI-HEC COMSATS University, Islamabad (Pakistan)* <span class="pull-right">2017 - 2020</span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>  AI, Deep Learning, Machine Vision, Python</span>  
-End of study intership in a research lab working on natural language processing. Implementation of a statistical translation tool for text messages.  
-<i class="fas fa-plus small-grey"></i> Implementation of a state of the art statistical translation tool  
-<i class="fas fa-plus small-grey"></i> Master's research thesis  
-
+For my Master's thesis, I worked on a project in collaboration with Medical Imaging and Diagnostic Lab (MIDL) affiliated with the National
+Center of Artificial Intelligence (NCAI) under Higher Education Commission (HEC) of Pakistan.  
+<i class="fas fa-plus small-grey"></i> Aim to provide Computer Aided Diagnostics (CAD) system solutions using advanced Computer Vision and Deep Learning techniques
+(e.g., Discriminative Models and Generative Models specifically Generative Adversarial Networks).
+<i class="fas fa-plus small-grey"></i> Master's research thesis "National Health Service (NHS) a centralized web system
+for Pakistan" 
+<i class="fas fa-plus small-grey"></i> Research Interest: Artificial Intelligence, Machine Learning, Deep
+Learning, Computer Vision, Generative Adversarial Networks
