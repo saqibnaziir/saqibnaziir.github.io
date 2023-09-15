@@ -96,5 +96,6 @@ for Pakistan". <br>
 <i class="fas fa-plus small-grey"></i> Research Interest: Artificial Intelligence, Machine Learning, Deep
 Learning, Computer Vision, Generative Adversarial Networks. <be>
 
-<span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/saqibnaziir/SRGAN-Low-dose-CT-Scan-Denoising)</span>
-{% include gallery id="gallery4" caption="SRGAN" %}
+<span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://ieeexplore.ieee.org/document/9897352)</span>
+<span class="small-grey"><i class="fab fa-fw fa-chrome" aria-hidden="true"></i>[Web app](https://ieeexplore.ieee.org/document/9897352)</span>
+{% include gallery id="gallery4" caption="2HDED:NET for Joint DFD and Image Deblurring" %}
