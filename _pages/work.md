@@ -39,6 +39,11 @@ gallery3:
     image_path: /images/projects/thumbs/massiccc-3.jpg
     alt: "MASSICCC web app screenshot"
     title: "MASSICCC web app"
+ gallery4:
+  - url: /images/projects/SRGAN.png
+    image_path: /images/projects/SRGAN.png
+    alt: "SRGAN"
+    title: "SRGAN"   
 ---
 
 **Assistant Reseracher**, *CEOSpace Tech* <span class="pull-right">2023 - </span>  
@@ -47,10 +52,10 @@ Assistant Researcher for [European Training Network (ETN) MENELAOS](https://www.
 The entrance of the new Deep Neural Networks (DNN) on the stage of signal processing has boosted the subject due to their capability to learn complex models that ingest multiple effects, not only single ones as analytical approaches are doing. The flexibility in learning and the fast processing, once the training is accomplished, make DNNs a very promising tool in building the 3D geometry of scenes from easy-to-acquire images.
 
 
-<i class="fas fa-plus small-grey"></i> Study of physical foundation for depth cues in images and evaluation of their potential in existing methods for depth mapping.  
-<i class="fas fa-plus small-grey"></i> Elaboration of DNN-based solutions for depth inference from single-shot images by exploiting defocus and other depth cues.  
-<i class="fas fa-plus small-grey"></i> Definition of benchmarks for DNN training, validation and testing.
-<i class="fas fa-plus small-grey"></i> Evaluation of the accuracy of depth maps obtained with the DNNs using indoor and outdoor image collection.
+<i class="fas fa-plus small-grey"></i> Study of physical foundation for depth cues in images and evaluation of their potential in existing methods for depth mapping.  <br>
+<i class="fas fa-plus small-grey"></i> Elaboration of DNN-based solutions for depth inference from single-shot images by exploiting defocus and other depth cues.  <br>
+<i class="fas fa-plus small-grey"></i> Definition of benchmarks for DNN training, validation and testing. <br>
+<i class="fas fa-plus small-grey"></i> Evaluation of the accuracy of depth maps obtained with the DNNs using indoor and outdoor image collection.<br>
 
 
 **Visiting Researcher**, *Ingeniería INSITU (INSITU Engineering)* <span class="pull-right">2022 - 2022</span>  
@@ -89,4 +94,7 @@ Center of Artificial Intelligence (NCAI) under the Higher Education Commission (
 <i class="fas fa-plus small-grey"></i> Master's research thesis "National Health Service (NHS) a centralized web system
 for Pakistan". <br> 
 <i class="fas fa-plus small-grey"></i> Research Interest: Artificial Intelligence, Machine Learning, Deep
-Learning, Computer Vision, Generative Adversarial Networks. <br>
+Learning, Computer Vision, Generative Adversarial Networks. <be>
+
+<span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/saqibnaziir/SRGAN-Low-dose-CT-Scan-Denoising)</span>
+{% include gallery id="gallery4" caption="SRGAN" %}
