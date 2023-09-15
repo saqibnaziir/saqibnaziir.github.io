@@ -9,14 +9,14 @@ classes: wide
 
 
 ---
-**PhD.**, *2021-2023*  
-UPB, *Bucharest, Romania*
+**Ph.D. in Electronics, Telecommunications, and Information Technology**, *2021-2023*  
+University POLITEHNICA of Bucharest (UPB), *Bucharest, Romania*  
 
-**Master's degree in computer science and Ai**, *2017-2020*  
-COMSATS, *Isb*
+**Master's degree in Computer Science and Ai**, *2017-2020*  
+COMSATS University Islamabad, *Islamabad, Pakistan*
 
 **Bachlor's degree in computer science**, *2012-2016*  
-COMSATS, *Isb*
+COMSATS University Islamabad, *Islamabad, Pakistan*
 
 
 ---
@@ -25,13 +25,14 @@ COMSATS, *Isb*
 
 
 **Marie Skłodowska-Curie Actions**, *2020-2024*  
-UPB, *Bucharest, Romania*
+University POLITEHNICA of Bucharest (UPB), *Bucharest, Romania* 
 
 **PEEF Scholorship**, *2017-2020*  
-COMSATS, *Isb*
+COMSATS University Islamabad, *Islamabad, Pakistan*
 
-**Full Student Scholorship**, *2012-2016*  
-COMSATS, *Isb*
+**Fully Funded Scholarship**, *2012-2016*
+COMSATS University Islamabad, *Islamabad, Pakistan*
+
 
 
 
