@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 ---
 
-Hi, there! I'm Saqib. I am a Ph.D. student in the Faculty of Electronics, Telecommunications, and Information Technology at the University Politechnica Bucharest, working with Prof. Daniela Coltuc and Mihai Datcu as a member of the CEOSpace Tech. lab. 
+Hi, there! I'm Saqib. I am a Ph.D. student in the Faculty of [Electronics, Telecommunications, and Information Technology](http://www.electronica.pub.ro/) at the [University Politechnica Bucharest](https://upb.ro/en/), working with Prof. Daniela Coltuc and Prof. Mihai Datcu as a member of the [CEOSpace Tech.](http://ceospacetech.pub.ro/) lab. 
 I specialized in the field of 3D computer vision and the applications of Artificial Intelligence (AI), Deep Learning, and Machine Learning in this field. My primary area of research revolves around developing innovative methods for Monocular depth estimation utilizing defocus blur as a cue and Image defocus deblurring.
 
 
