@@ -5,10 +5,10 @@ author_profile: true
 classes: wide
 ---
 
-Besides my work, I have a keen interest for philosophy, and reading books. 
+Besides my work, I have a keen interest in philosophy, reading books, Workout and Exercise, Basketball, and Photography. <br>
 
 
-I enjoy traveling to forein countries. I've lived abroad for a few years already.
+I enjoy traveling to foreign countries. I've lived abroad for a few years already.
 
 <div class="gallery-scroll">
   <a href="/images/sports/travels-1.jpg" title="Presenting at EMVA 2022, Cork Ireland" class="image-popup">
@@ -29,7 +29,7 @@ I enjoy traveling to forein countries. I've lived abroad for a few years already
 </div>
 <p class="gallery-caption">Some of the places I've traveled to</p>
 
-I like to keep in shape by praticing sports as much as possible. I regularly rock climb, ski, sail and kite surf and I'm always looking to discover new activities.
+I like to keep in shape by practicing sports as much as possible. I regularly rock climb, ski, sail, and kite surf and I'm always looking to discover new activities.
 
 <div class="gallery-scroll">
   <a href="/images/sports/sports-1.JPG" title="Sigen Germany" class="image-popup">
@@ -48,4 +48,4 @@ I like to keep in shape by praticing sports as much as possible. I regularly roc
     <img class="gallery-img" src="/images/sports/sports-5.JPG" alt="Santiago de Compostela">
   </a>
 </div>
-<p class="gallery-caption">Some of the sports I practice</p>
+<p class="gallery-caption">More Places</p>
