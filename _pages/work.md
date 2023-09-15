@@ -39,7 +39,7 @@ gallery3:
     image_path: /images/projects/thumbs/massiccc-3.jpg
     alt: "MASSICCC web app screenshot"
     title: "MASSICCC web app"
- gallery4:
+gallery4:
   - url: /images/projects/SRGAN.png
     image_path: /images/projects/SRGAN.png
     alt: "SRGAN"
