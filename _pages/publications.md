@@ -6,6 +6,7 @@ author_profile: true
 classes: wide
 ---
 
+Here are a number of my selected publications. For the full list, please visit my [Google Scholar](https://scholar.google.com/citations?user=3nLzb24AAAAJ&hl=en) page.
 
 ---
 
