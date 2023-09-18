@@ -91,8 +91,7 @@ For my Master's thesis, I worked on a project in collaboration with the Medical 
 Center of Artificial Intelligence (NCAI) under the Higher Education Commission (HEC) of Pakistan.  <br>
 <i class="fas fa-plus small-grey"></i> Aim to provide Computer Aided Diagnostics (CAD) system solutions using advanced Computer Vision and Deep Learning techniques
 (e.g., Discriminative Models and Generative Models specifically Generative Adversarial Networks). <br>
-<i class="fas fa-plus small-grey"></i> Master's research thesis "National Health Service (NHS) a centralized web system
-for Pakistan". <br> 
+<i class="fas fa-plus small-grey"></i> Master's research thesis "Generative Adversarial Networks for Enhancing LowDose CT scans". <br> 
 <i class="fas fa-plus small-grey"></i> Research Interest: Artificial Intelligence, Machine Learning, Deep
 Learning, Computer Vision, Generative Adversarial Networks. <br>
 
