@@ -16,20 +16,21 @@ As a part of my work, I published several papers in top-tier conferences and pee
 
 Prior to joining CEOSpace Tech, I obtained a Bachelor's degree in Computer Science from COMSATS Univeristy Islamabad, Pakistan. Subsequently, I pursued a Master's degree in Computer Vision and Artificial Intelligence, where my focus revolved around the development of sophisticated deep-learning models for Medical Image Processing. Following the completion of my Master's degree, I served as a research assistant at a prominent research institute at COMSATS Univeristy Islamabad, Pakistan, thereby acquiring substantial expertise in crafting cutting-edge machine-learning models.
 
-I thoroughly enjoy collaborating with interdisciplinary teams encompassing diverse backgrounds. My experience encompasses working alongside small, agile teams to deliver problem-oriented and dependable software solutions. As an autonomous engineer, I highly value proactivity, knowledge sharing, and adherence to sound coding practices.
+I thoroughly enjoy collaborating with interdisciplinary teams encompassing diverse backgrounds. My experience encompasses working alongside small, agile teams to deliver problem-oriented and dependable software solutions. As a Computer Vision engineer, I highly value proactivity, knowledge sharing, and adherence to sound coding practices.
 
 Please take a look at [some of my work](/work).
 
 ---
 
 ## News
+- [Sep 2023] Big news!!, my paper entitled "Self-supervised Defocus Map Estimation and Auxiliary Image Deblurring Given a Single Defocused Image" has been accepted for presentation at  Digital Image Computing: Techniques and Applications (DICTA) 2023, Port Macquarie, New South Wales Australia [DICTA](https://www.dictaconference.org/)
 - [Apr 2023] Scandinavian Conference on Image Analysis 2023, Lapland, Finland [SCIA](https://sites.google.com/view/scia2023)
 - [Mar 2023] MenelaosNT Forum, Bucharest, Romania [Forum](https://andrei2407.github.io/menelaos_nt_forum_bucharest/)
 - [Oct 2022] 5th European Machine Vision Forum, Cork, Ireland
 - [Oct 2022] IEEE International Conference on Image Processing, Bordeaux, France
-- [Feb 2022] Visiting Reseracher @ INSITU, University of Vigo, Spain [INSITU](https://ingenieriainsitu.com/en/)
+- [Feb 2022] Visiting Researcher @ INSITU, University of Vigo, Spain [INSITU](https://ingenieriainsitu.com/en/)
 - [Feb 2022] PhD Forum Sensing Anywhere Innovation, University of Siegen, Germany [Forum](http://phdforum.zess.uni-siegen.de/)
-- [Sep 2021] Visiting Reseracher @ CiTIUS, University Santiago De Compostela, Spain [CiTIUS](https://citius.gal/)
+- [Sep 2021] Visiting Researcher @ CiTIUS, University Santiago De Compostela, Spain [CiTIUS](https://citius.gal/)
 
 
 [Read more ..]
