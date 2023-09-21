@@ -23,7 +23,7 @@ Please take a look at [some of my work](/work).
 ---
 
 ## News
-- [Sep 2023] Big news!!, my paper entitled "Self-supervised Defocus Map Estimation and Auxiliary Image Deblurring Given a Single Defocused Image" has been accepted for presentation at  Digital Image Computing: Techniques and Applications (DICTA) 2023, Port Macquarie, New South Wales Australia [DICTA](https://www.dictaconference.org/)
+- [Sep 2023] Exciting news!!, my paper entitled "Self-supervised Defocus Map Estimation and Auxiliary Image Deblurring Given a Single Defocused Image" has been accepted for presentation at  Digital Image Computing: Techniques and Applications (DICTA) 2023, Port Macquarie, New South Wales Australia [DICTA](https://www.dictaconference.org/)
 - [Apr 2023] Scandinavian Conference on Image Analysis 2023, Lapland, Finland [SCIA](https://sites.google.com/view/scia2023)
 - [Mar 2023] MenelaosNT Forum, Bucharest, Romania [Forum](https://andrei2407.github.io/menelaos_nt_forum_bucharest/)
 - [Oct 2022] 5th European Machine Vision Forum, Cork, Ireland
