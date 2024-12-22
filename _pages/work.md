@@ -43,7 +43,12 @@ gallery4:
   - url: /images/projects/SRGAN.png
     image_path: /images/projects/SRGAN.png
     alt: "SRGAN"
-    title: "SRGAN"   
+    title: "SRGAN"
+gallery6:
+  - url: /images/projects/COSURIA.png
+    image_path: /images/projects/COSURIA.png
+    alt: "COSURIA"
+    title: "COSURIA" 
 ---
 
 **PostDoc Research Associate**, *GREYC LAB* <span class="pull-right">2024 - </span>  
