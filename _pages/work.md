@@ -53,8 +53,9 @@ gallery6:
 <div data-aos="fade-up">
 <h2>PostDoc Research Associate</h2>
 <p><i>GREYC LAB</i> <span class="pull-right">2024 - </span></p> 
-<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> 3D, Deep Learning</span>   
-p Research Associate at [COSURIA](https://lezoray.users.greyc.fr/projects/COSURIA/index.html) project. The COSURIA project is an emerging project of the Normandy Research system funded from November 2023 to November 2025. In the COSURIA project, we propose to design methods based on generative neural networks to perform geometry and color completion on colored 3D meshes of people scans.
+<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> 3D, Deep Learning </span>   
+
+Research Associate at [COSURIA](https://lezoray.users.greyc.fr/projects/COSURIA/index.html) project. The COSURIA project is an emerging project of the Normandy Research system funded from November 2023 to November 2025. In the COSURIA project, we propose to design methods based on generative neural networks to perform geometry and color completion on colored 3D meshes of people scans.
 The developed algorithms will be used in the consolidation of 3D scans of people in order to create 3D avatars for extended reality.
 With the development of 3D acquisition techniques, 3D data in the form of 3D surfaces have become very widely available and new application fields have emerged: digital forensics, digital heritage, and digital twins. But there are many obstacles. In fact, whatever the 3D acquisition process:
 
