@@ -57,9 +57,9 @@ With the development of 3D acquisition techniques, 3D data in the form of 3D sur
 <i class="fas fa-plus small-grey"></i> Retouching these 3D surfaces takes a very long time.  <br>
 <i class="fas fa-plus small-grey"></i> Existing completion techniques only deal with geometry and not colors. <br>
 <i class="fas fa-plus small-grey"></i> The goal of the project is to develop methods for completing both geometry and color in 3D color meshes. <br>
+{% include gallery id="gallery6" caption="3D Human Face Mesh" %}
 
-
-**Assistant Reseracher**, *CEOSpace Tech* <span class="pull-right">2023 - </span>  
+**Assistant Reseracher**, *CEOSpace Tech* <span class="pull-right">2021 - 2023</span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> AI, Deep Learning, Machine Vision, Python</span>  
 Assistant Researcher for [European Training Network (ETN) MENELAOS](https://www.menelaos-nt.eu/) mission. Acquiring the 3D geometry of the scene is essential for many applications in the areas of navigation, robotics, scene understanding, etc. Among the existing approaches, those using passive devices are of increased interest since they allow the use of compact, standard, and low-cost imaging systems like DSLR cameras. There are many depth cues that can be used to extract the 3D geometry. In single-shot images, the depth is lying in the blur, shadows of objects, chromatic effects shape distortions caused by lens aberrations, etc.  When multiple images are used, depth information comes from perspective change like in binocular systems or structures motion in video sequences. The physics of these effects is well known and more or less accurate mathematical models exist and are used by analytical image processing methods that are generally prone to heavy calculation.
 The entrance of the new Deep Neural Networks (DNN) on the stage of signal processing has boosted the subject due to their capability to learn complex models that ingest multiple effects, not only single ones as analytical approaches are doing. The flexibility in learning and the fast processing, once the training is accomplished, make DNNs a very promising tool in building the 3D geometry of scenes from easy-to-acquire images.
@@ -73,7 +73,7 @@ The entrance of the new Deep Neural Networks (DNN) on the stage of signal proces
 
 **Visiting Researcher**, *Ingeniería INSITU (INSITU Engineering)* <span class="pull-right">2022 - 2022</span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>  AI, Deep Learning, Machine Vision, Python</span>  
-Research engineer, within the Ingeniería INSITU (INSITU Engineering) team. The aim of this research stay at the University of Vigo was to explore the LiDAR and TOF cameras and develop a real dataset for Depth from Defocus. The iDFD is open source dataset that can be used for 3D indoor applications. [iDFD](https://github.com/saqibnaziir/iDFD)
+Research engineer, within the Ingeniería INSITU (INSITU Engineering) team. The aim of this research stay at the University of Vigo was to explore the LiDAR and TOF cameras and develop a real dataset for Depth from Defocus. The iDFD is an open-source dataset that can be used for 3D indoor applications. [iDFD](https://github.com/saqibnaziir/iDFD)
 
 <i class="fas fa-plus small-grey"></i> Contribution to open-source projects for the team.   <br>
 <i class="fas fa-plus small-grey"></i> Devlopment of iDFD dataset. <br>
@@ -84,7 +84,7 @@ Research engineer, within the Ingeniería INSITU (INSITU Engineering) team. The 
 {% include gallery id="gallery1" caption="iDFD dataset" %}
 
 
-**Visiting Researcher**, *CiTIUS (Centro Singular de Investigación en Tecnoloxías Intelixentes)* <span class="pull-right">2021 - 2021</span>  
+**Visiting Researcher**, *CiTiUS (Centro Singular de Investigación en Tecnoloxías Intelixentes)* <span class="pull-right">2021 - 2021</span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>  AI, Deep Learning, Machine Vision, Python</span>  
 Research engineer within the CiTIUS, working on [European Training Network (ETN) MENELAOS](https://www.menelaos-nt.eu/) project. This collaboration was done between the CiTIUS team for the development of 2HDED:NET. 
 
