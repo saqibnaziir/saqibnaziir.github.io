@@ -48,7 +48,7 @@ gallery6:
   - url: /images/projects/COSURIA.png
     image_path: /images/projects/COSURIA.png
     alt: "COSURIA"
-    title: "COSURIA" 
+    title: "COSURIA"  
 ---
 
 **PostDoc Research Associate**, *GREYC LAB* <span class="pull-right">2024 - </span>  
