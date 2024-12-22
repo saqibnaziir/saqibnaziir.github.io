@@ -120,3 +120,10 @@ Learning, Computer Vision, Generative Adversarial Networks. <br>
 <span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/saqibnaziir/SRGAN-Low-dose-CT-Scan-Denoising)</span>
 
 {% include gallery id="gallery4" caption="SRGAN fro Low-dose CT-Scan Denoising" %}
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script>
+  AOS.init();
+</script>
+
