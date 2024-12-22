@@ -5,9 +5,9 @@ excerpt: "About me"
 author_profile: true
 classes: wide
 ---
-Hi, there! I'm Saqib. I am currently working as a Postdoctoral Research Associate at the IMAGE Group within the [GREYC Lab] (https://www.greyc.fr/en/laboratory/), CNRS, [University of Caen, Normandy, France] (https://welcome.unicaen.fr/). My research focuses on developing generative models for geometric and color completion of partial 3D color meshes of human scans. These technologies have practical applications in AR/VR/XR and 3D Avatar editing.
+Hi, there! I'm Saqib. I am currently working as a Postdoctoral Research Associate at the IMAGE Group within the [GREYC Lab](https://www.greyc.fr/en/laboratory/), CNRS, [University of Caen, Normandy, France](https://welcome.unicaen.fr/). My research focuses on developing generative models for geometric and color completion of partial 3D color meshes of human scans. These technologies have practical applications in AR/VR/XR and 3D Avatar editing.
 
-Previously, I completed my Ph.D. from the Faculty of [Electronics, Telecommunications, and Information Technology](http://www.electronica.pub.ro/) at the [University Politechnica Bucharest](https://upb.ro/en/), working with Prof. Daniela Coltuc and [Prof. Mihai Datcu] (http://ceospacetech.pub.ro/index.php/ceospacetech-members/10-members/84-members-mihai-datcu) as a member of the [CEOSpace Tech.](http://ceospacetech.pub.ro/) lab. 
+Previously, I completed my Ph.D. from the Faculty of [Electronics, Telecommunications, and Information Technology](http://www.electronica.pub.ro/) at the [University Politechnica Bucharest](https://upb.ro/en/), working with Prof. Daniela Coltuc and [Prof. Mihai Datcu](http://ceospacetech.pub.ro/index.php/ceospacetech-members/10-members/84-members-mihai-datcu) as a member of the [CEOSpace Tech.](http://ceospacetech.pub.ro/) lab. 
 I specialized in the field of 3D computer vision and the applications of Artificial Intelligence (AI), Deep Learning, and Machine Learning in this field. My primary area of research revolves around developing innovative methods for Monocular depth estimation utilizing defocus blur as a cue and Image defocus deblurring.
 
 
