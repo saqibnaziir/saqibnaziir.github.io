@@ -33,6 +33,9 @@ github_username:  saqibnaziir
 plugins:
   - jekyll-feed
 
+include:
+  - https://unpkg.com/jos@latest/jos.min.js
+
 # Theme Settings
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
