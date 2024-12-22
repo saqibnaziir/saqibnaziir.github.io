@@ -5,12 +5,13 @@ excerpt: "About me"
 author_profile: true
 classes: wide
 ---
+Hi, there! I'm Saqib. I am currently working as a Postdoctoral Research Associate at the IMAGE Group within the [GREYC Lab] (https://www.greyc.fr/en/laboratory/), CNRS, [University of Caen, Normandy, France] (https://welcome.unicaen.fr/). My research focuses on developing generative models for geometric and color completion of partial 3D color meshes of human scans. These technologies have practical applications in AR/VR/XR and 3D Avatar editing.
 
-Hi, there! I'm Saqib. I am a Ph.D. student in the Faculty of [Electronics, Telecommunications, and Information Technology](http://www.electronica.pub.ro/) at the [University Politechnica Bucharest](https://upb.ro/en/), working with Prof. Daniela Coltuc and Prof. Mihai Datcu as a member of the [CEOSpace Tech.](http://ceospacetech.pub.ro/) lab. 
+Previously, I completed my Ph.D. from the Faculty of [Electronics, Telecommunications, and Information Technology](http://www.electronica.pub.ro/) at the [University Politechnica Bucharest](https://upb.ro/en/), working with Prof. Daniela Coltuc and [Prof. Mihai Datcu] (http://ceospacetech.pub.ro/index.php/ceospacetech-members/10-members/84-members-mihai-datcu) as a member of the [CEOSpace Tech.](http://ceospacetech.pub.ro/) lab. 
 I specialized in the field of 3D computer vision and the applications of Artificial Intelligence (AI), Deep Learning, and Machine Learning in this field. My primary area of research revolves around developing innovative methods for Monocular depth estimation utilizing defocus blur as a cue and Image defocus deblurring.
 
 
-Currently, I am working as an Early-stage Researcher (ESR) in the European Training Network (ETN) H2020-MSCA-ITN [MENELAOS-NT](https://www.menelaos-nt.eu/) project. The project applies Novel Technologies to realize multimodal – multi-sensor data fusion to optimally combine the information delivered by different sensors (in-situ/remote, optical/non-optical) on different scales, with different resolutions, and with different reliability. The objective of this project is to advance technologies in the areas of 3D imaging, perception, and environmental interaction, employing computer vision, machine learning, and robotics.
+During my P.h.D. i wokred as an Early-stage Researcher (ESR) in the European Training Network (ETN) H2020-MSCA-ITN [MENELAOS-NT](https://www.menelaos-nt.eu/) project. The project applies Novel Technologies to realize multimodal – multi-sensor data fusion to optimally combine the information delivered by different sensors (in-situ/remote, optical/non-optical) on different scales, with different resolutions, and with different reliability. The objective of this project is to advance technologies in the areas of 3D imaging, perception, and environmental interaction, employing computer vision, machine learning, and robotics.
 
 As a part of my work, I published several papers in top-tier conferences and peer-review journals in the field of computer vision and image processing. My research contributions have been widely recognized and have earned prestigious awards and accolades.
 
