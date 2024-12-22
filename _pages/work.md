@@ -50,11 +50,9 @@ gallery6:
     alt: "COSURIA"
     title: "COSURIA"  
 ---
-<div data-aos="fade-up"> 
 **PostDoc Research Associate**, *GREYC LAB* <span class="pull-right">2024 </span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> 3D, Deep Learning</span>
-
-Research Associate at [COSURIA(https://lezoray.users.greyc.fr/projects/COSURIA/index.html) project. The COSURIA project is an emerging project of the Normandy Research system funded from November 2023 to November 2025. In the COSURIA project, we propose to design methods based on generative neural networks to perform geometry and color completion on colored 3D meshes of people scans.
+Research Associate at [COSURIA](https://lezoray.users.greyc.fr/projects/COSURIA/index.html) project. The COSURIA project is an emerging project of the Normandy Research system funded from November 2023 to November 2025. In the COSURIA project, we propose to design methods based on generative neural networks to perform geometry and color completion on colored 3D meshes of people scans.
 The developed algorithms will be used in the consolidation of 3D scans of people in order to create 3D avatars for extended reality.
 With the development of 3D acquisition techniques, 3D data in the form of 3D surfaces have become very widely available and new application fields have emerged: digital forensics, digital heritage, and digital twins. But there are many obstacles. In fact, whatever the 3D acquisition process:
 
@@ -65,7 +63,7 @@ With the development of 3D acquisition techniques, 3D data in the form of 3D sur
 <i class="fas fa-plus small-grey"></i> The goal of the project is to develop methods for completing both geometry and color in 3D color meshes. <br>
 {% include gallery id="gallery6" caption="3D Human Face Mesh" %}
 
-</div>
+
 
 **Assistant Reseracher**, *CEOSpace Tech* <span class="pull-right">2021 - 2023</span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> AI, Deep Learning, Machine Vision, Python</span>  
