@@ -46,6 +46,19 @@ gallery4:
     title: "SRGAN"   
 ---
 
+**PostDoc Research Associate**, *GREYC LAB* <span class="pull-right">2024 - </span>  
+<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> AI, Deep Learning, Machine Vision, Python</span>  
+Research Associate at [COSURIA](https://lezoray.users.greyc.fr/projects/COSURIA/index.html) project. The COSURIA project is an emerging project of the Normandy Research system funded from November 2023 to November 2025. In the COSURIA project, we propose to design methods based on generative neural networks to perform geometry and color completion on colored 3D meshes of people scans.
+The developed algorithms will be used in the consolidation of 3D scans of people in order to create 3D avatars for extended reality.
+With the development of 3D acquisition techniques, 3D data in the form of 3D surfaces have become very widely available and new application fields have emerged: digital forensics, digital heritage, and digital twins. But there are many obstacles. In fact, whatever the 3D acquisition process:
+
+
+<i class="fas fa-plus small-grey"></i> The data is imperfect: gaps, acquisition errors, elements to be deleted.  <br>
+<i class="fas fa-plus small-grey"></i> Retouching these 3D surfaces takes a very long time.  <br>
+<i class="fas fa-plus small-grey"></i> Existing completion techniques only deal with geometry and not colors. <br>
+<i class="fas fa-plus small-grey"></i> The goal of the project is to develop methods for completing both geometry and color in 3D color meshes. <br>
+
+
 **Assistant Reseracher**, *CEOSpace Tech* <span class="pull-right">2023 - </span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> AI, Deep Learning, Machine Vision, Python</span>  
 Assistant Researcher for [European Training Network (ETN) MENELAOS](https://www.menelaos-nt.eu/) mission. Acquiring the 3D geometry of the scene is essential for many applications in the areas of navigation, robotics, scene understanding, etc. Among the existing approaches, those using passive devices are of increased interest since they allow the use of compact, standard, and low-cost imaging systems like DSLR cameras. There are many depth cues that can be used to extract the 3D geometry. In single-shot images, the depth is lying in the blur, shadows of objects, chromatic effects shape distortions caused by lens aberrations, etc.  When multiple images are used, depth information comes from perspective change like in binocular systems or structures motion in video sequences. The physics of these effects is well known and more or less accurate mathematical models exist and are used by analytical image processing methods that are generally prone to heavy calculation.
