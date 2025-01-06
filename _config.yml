@@ -21,7 +21,7 @@
 title: Saqib Nazir
 email: saqib.nazir@upb.ro
 description: >- # this means to ignore newlines until "baseurl:"
-  Saqib Nazir - Assistant Researcher PhD.
+  Saqib Nazir - Associate Researcher PhD.
 domain: saqibnaziir.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://saqibnaziir.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -47,10 +47,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 author:
   name             : "Saqib Nazir"
   avatar           : "/images/bio-photo-2.JPG"
-  bio              : "PhD. / Assistant Resreacher"
-  location         : "Romania"
+  bio              : "PhD. / Associate Researcher"
+  location         : "France"
   employer         :
-  email            : "saqib.nazir@upb.ro"
+  email            : "saqib.nazir@unicaen.fr"
   github           : "saqibnaziir"
   googlescholar    : "https://scholar.google.com/citations?user=3nLzb24AAAAJ&hl=en"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
