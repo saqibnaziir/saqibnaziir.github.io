@@ -506,9 +506,89 @@ h1, h2, h3, h4 {
   margin-top: 3rem;
 }
 
+.about-eyebrow {
+  color: var(--accent);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.about-grid-reza {
+  grid-template-columns: 320px 1fr;
+}
+
+.about-sidebar {
+  display: grid;
+  gap: 16px;
+}
+
+.about-card,
+.about-quick-info {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px;
+}
+
+.about-name {
+  font-size: 1.1rem;
+  margin-top: 14px;
+}
+
+.about-role {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.about-links a {
+  font-size: 0.78rem;
+  padding: 4px 10px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+}
+
+.about-links a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.about-quick-info h4 {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.about-quick-info ul {
+  display: grid;
+  gap: 8px;
+}
+
+.about-quick-info li {
+  color: var(--text-secondary);
+  font-size: 0.84rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.about-quick-info i {
+  color: var(--accent);
+  width: 14px;
+}
+
 .photo-wrapper {
-  width: 260px;
-  height: 260px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid var(--border);
@@ -533,8 +613,9 @@ h1, h2, h3, h4 {
 
 .about-text p {
   color: var(--text-secondary);
-  margin-bottom: 1.2rem;
-  font-size: 0.98rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.75;
 }
 
 .about-text strong { color: var(--text-primary); }
@@ -1363,11 +1444,9 @@ h1, h2, h3, h4 {
     gap: 32px;
   }
 
-  .about-photo { text-align: center; }
-
   .photo-wrapper {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
   }
 
   .exp-top {
