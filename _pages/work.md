@@ -50,6 +50,17 @@ gallery6:
     alt: "COSURIA"
     title: "COSURIA"  
 ---
+**Research Associate**, *IVC Lab, Edge Hill University* <span class="pull-right">2025 - Present</span>  
+<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> AI, Deep Learning, Single-cell Analysis, Forensic Science</span>  
+Research Associate at the [IVC Lab](https://www.edgehill.ac.uk/research/ivc/), Edge Hill University, Ormskirk, UK, working on the [SCAnDi project](https://www.earlham.ac.uk/research-project/single-cell-analysis-forensic-science-scandi-project) *(Single-cell and single molecule analysis for DNA identification)*, funded by the **UKRI Economic and Social Research Council**. The project brings together multidisciplinary expertise — spanning single-cell genomics, DNA profiling, microfluidics, artificial intelligence, and forensic genetics — working alongside practitioners in the justice system to deliver proof-of-principle research demonstrating the applicability of single-cell analysis in forensic science.
+
+<i class="fas fa-plus small-grey"></i> Developing interpretable AI models for single-cell phenotyping in forensic and clinical applications. <br>
+<i class="fas fa-plus small-grey"></i> Morphological classification of individual cells (sperm, skin, blood) and assessing cell integrity (intact vs fragmented). <br>
+<i class="fas fa-plus small-grey"></i> Integrating LLM-based interpretation to generate biologically grounded explanations for model predictions, advancing responsible AI deployment in critical decision-making contexts. <br>
+<i class="fas fa-plus small-grey"></i> Multi-modal analysis combining microscopy imaging with molecular data for enhanced diagnostic accuracy. <br>
+<i class="fas fa-plus small-grey"></i> Applications spanning forensic science, clinical diagnostics, precision medicine, and DNA analysis. <br>
+
+
 **PostDoc Research Associate**, *GREYC LAB* <span class="pull-right">2024 </span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> 3D, Deep Learning</span>
 Research Associate at [COSURIA](https://lezoray.users.greyc.fr/projects/COSURIA/index.html) project. The COSURIA project is an emerging project of the Normandy Research system funded from November 2023 to November 2025. In the COSURIA project, we propose to design methods based on generative neural networks to perform geometry and color completion on colored 3D meshes of people scans.
