@@ -1,43 +1,46 @@
+document.documentElement.classList.add('js');
+
 /* ═══════════════════════════════════════
    HERO CANVAS — Interactive 3D Face
    ═══════════════════════════════════════ */
 
 (function () {
-  var canvas = document.getElementById('hero-canvas');
-  if (!canvas || !window.THREE) return;
+  try {
+    var canvas = document.getElementById('hero-canvas');
+    if (!canvas || !window.THREE || !window.THREE.OrbitControls) return;
 
-  var THREE = window.THREE;
-  var renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    var THREE = window.THREE;
+    var renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
-  var scene = new THREE.Scene();
-  var camera = new THREE.PerspectiveCamera(35, 1, 0.1, 100);
-  camera.position.set(0, 0.2, 6);
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera(35, 1, 0.1, 100);
+    camera.position.set(0, 0.2, 6);
 
-  var controls = new THREE.OrbitControls(camera, canvas);
-  controls.enableDamping = true;
-  controls.dampingFactor = 0.05;
-  controls.enablePan = false;
-  controls.minDistance = 4.2;
-  controls.maxDistance = 8.2;
-  controls.minPolarAngle = Math.PI * 0.35;
-  controls.maxPolarAngle = Math.PI * 0.65;
+    var controls = new THREE.OrbitControls(camera, canvas);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.05;
+    controls.enablePan = false;
+    controls.minDistance = 4.2;
+    controls.maxDistance = 8.2;
+    controls.minPolarAngle = Math.PI * 0.35;
+    controls.maxPolarAngle = Math.PI * 0.65;
 
-  var faceGroup = new THREE.Group();
-  scene.add(faceGroup);
+    var faceGroup = new THREE.Group();
+    scene.add(faceGroup);
 
-  var ambient = new THREE.AmbientLight(0xffffff, 0.4);
-  scene.add(ambient);
-  var key = new THREE.DirectionalLight(0x80dfff, 0.85);
-  key.position.set(3, 4, 6);
-  scene.add(key);
-  var rim = new THREE.DirectionalLight(0x4cc9f0, 0.45);
-  rim.position.set(-4, -1, -3);
-  scene.add(rim);
+    var ambient = new THREE.AmbientLight(0xffffff, 0.4);
+    scene.add(ambient);
+    var key = new THREE.DirectionalLight(0x80dfff, 0.85);
+    key.position.set(3, 4, 6);
+    scene.add(key);
+    var rim = new THREE.DirectionalLight(0x4cc9f0, 0.45);
+    rim.position.set(-4, -1, -3);
+    scene.add(rim);
 
-  function createFaceGeometry() {
-    var geo = new THREE.SphereGeometry(1.35, 72, 72);
-    var pos = geo.attributes.position;
+    function createFaceGeometry() {
+      var geo = new THREE.SphereGeometry(1.35, 72, 72);
+      var pos = geo.attributes.position;
 
     for (var i = 0; i < pos.count; i++) {
       var x = pos.getX(i);
@@ -69,31 +72,31 @@
     }
     pos.needsUpdate = true;
     geo.computeVertexNormals();
-    return geo;
-  }
+      return geo;
+    }
 
-  var faceGeometry = createFaceGeometry();
-  var faceMaterial = new THREE.MeshStandardMaterial({
-    color: 0x5bd9ff,
-    metalness: 0.2,
-    roughness: 0.48,
-    transparent: true,
-    opacity: 0.2
-  });
-  var faceMesh = new THREE.Mesh(faceGeometry, faceMaterial);
-  faceGroup.add(faceMesh);
+    var faceGeometry = createFaceGeometry();
+    var faceMaterial = new THREE.MeshStandardMaterial({
+      color: 0x5bd9ff,
+      metalness: 0.2,
+      roughness: 0.48,
+      transparent: true,
+      opacity: 0.2
+    });
+    var faceMesh = new THREE.Mesh(faceGeometry, faceMaterial);
+    faceGroup.add(faceMesh);
 
-  var wire = new THREE.LineSegments(
-    new THREE.WireframeGeometry(faceGeometry),
-    new THREE.LineBasicMaterial({ color: 0x57d8ff, transparent: true, opacity: 0.65 })
-  );
-  faceGroup.add(wire);
+    var wire = new THREE.LineSegments(
+      new THREE.WireframeGeometry(faceGeometry),
+      new THREE.LineBasicMaterial({ color: 0x57d8ff, transparent: true, opacity: 0.65 })
+    );
+    faceGroup.add(wire);
 
   // A subtle point cloud halo for depth-map / CV feel.
-  var cloudGeo = new THREE.BufferGeometry();
-  var cloudCount = 500;
-  var cloudArray = new Float32Array(cloudCount * 3);
-  for (var p = 0; p < cloudCount; p++) {
+    var cloudGeo = new THREE.BufferGeometry();
+    var cloudCount = 500;
+    var cloudArray = new Float32Array(cloudCount * 3);
+    for (var p = 0; p < cloudCount; p++) {
     var t = Math.random() * Math.PI * 2;
     var u = Math.random() * Math.PI;
     var r = 2.2 + Math.random() * 0.9;
@@ -101,47 +104,51 @@
     cloudArray[p * 3 + 1] = r * Math.cos(u) * 0.85;
     cloudArray[p * 3 + 2] = r * Math.sin(u) * Math.sin(t);
   }
-  cloudGeo.setAttribute('position', new THREE.BufferAttribute(cloudArray, 3));
-  var cloudMat = new THREE.PointsMaterial({ color: 0x31c9f8, size: 0.02, transparent: true, opacity: 0.5 });
-  var cloud = new THREE.Points(cloudGeo, cloudMat);
-  faceGroup.add(cloud);
+    cloudGeo.setAttribute('position', new THREE.BufferAttribute(cloudArray, 3));
+    var cloudMat = new THREE.PointsMaterial({ color: 0x31c9f8, size: 0.02, transparent: true, opacity: 0.5 });
+    var cloud = new THREE.Points(cloudGeo, cloudMat);
+    faceGroup.add(cloud);
 
-  function isDark() {
-    return document.documentElement.getAttribute('data-theme') !== 'light';
+    function isDark() {
+      return document.documentElement.getAttribute('data-theme') !== 'light';
+    }
+
+    function refreshTheme() {
+      var dark = isDark();
+      renderer.setClearColor(dark ? 0x070b12 : 0xf3f8fc, 0);
+      faceMaterial.color.setHex(dark ? 0x69ddff : 0x1f8abf);
+      wire.material.color.setHex(dark ? 0x56d8ff : 0x2187b4);
+      cloud.material.color.setHex(dark ? 0x35cbf8 : 0x2a87b7);
+      cloud.material.opacity = dark ? 0.52 : 0.34;
+    }
+
+    function resize() {
+      var w = canvas.clientWidth || window.innerWidth;
+      var h = canvas.clientHeight || window.innerHeight;
+      renderer.setSize(w, h, false);
+      camera.aspect = w / h;
+      camera.updateProjectionMatrix();
+    }
+
+    function animate() {
+      requestAnimationFrame(animate);
+      faceGroup.rotation.y += 0.0014;
+      faceGroup.rotation.x = Math.sin(Date.now() * 0.00025) * 0.04;
+      cloud.rotation.y -= 0.0006;
+      controls.update();
+      renderer.render(scene, camera);
+    }
+
+    window.addEventListener('resize', resize);
+    resize();
+    refreshTheme();
+    animate();
+
+    window._heroCanvasRedraw = refreshTheme;
+  } catch (error) {
+    // Keep page usable even if WebGL / Three.js fails.
+    window._heroCanvasRedraw = function () {};
   }
-
-  function refreshTheme() {
-    var dark = isDark();
-    renderer.setClearColor(dark ? 0x070b12 : 0xf3f8fc, 0);
-    faceMaterial.color.setHex(dark ? 0x69ddff : 0x1f8abf);
-    wire.material.color.setHex(dark ? 0x56d8ff : 0x2187b4);
-    cloud.material.color.setHex(dark ? 0x35cbf8 : 0x2a87b7);
-    cloud.material.opacity = dark ? 0.52 : 0.34;
-  }
-
-  function resize() {
-    var w = canvas.clientWidth || window.innerWidth;
-    var h = canvas.clientHeight || window.innerHeight;
-    renderer.setSize(w, h, false);
-    camera.aspect = w / h;
-    camera.updateProjectionMatrix();
-  }
-
-  function animate() {
-    requestAnimationFrame(animate);
-    faceGroup.rotation.y += 0.0014;
-    faceGroup.rotation.x = Math.sin(Date.now() * 0.00025) * 0.04;
-    cloud.rotation.y -= 0.0006;
-    controls.update();
-    renderer.render(scene, camera);
-  }
-
-  window.addEventListener('resize', resize);
-  resize();
-  refreshTheme();
-  animate();
-
-  window._heroCanvasRedraw = refreshTheme;
 })();
 
 /* ═══════════════════════════════════════
