@@ -1,26 +1,35 @@
-# Saqib Nazir's personnal website
+# Saqib Nazir — Academic Portfolio
 
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
-[![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
+Personal academic portfolio website for **Saqib Nazir**, AI Researcher specializing in Computer Vision, Deep Learning, 3D Imaging, and Forensic AI.
 
-This is the repository for my personal website. Visit it at [https://saqibnaziir.github.io/](https://saqibnaziir.github.io/)
+## Live Site
 
-## Credits
+[https://saqibnaziir.github.io](https://saqibnaziir.github.io)
 
-The website is based on Michael Rose's [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) Jekyll theme.
+## Stack
 
-## Usage
+- Plain HTML / CSS / JavaScript (no build step required)
+- Hosted on GitHub Pages (static site)
+- Google Fonts (Inter, Space Grotesk)
+- Font Awesome + Academicons for icons
 
-To setup an environment to run the website in development, execute
+## Structure
 
-```console
-bundle install
+```
+├── index.html          # Single-page portfolio (all sections)
+├── css/style.css       # Styles with dark/light theme support
+├── js/main.js          # Interactions, animations, canvas, filters
+├── images/             # Project images and headshot
+│   ├── bio-photo-2.JPG
+│   └── projects/
+├── files/              # Downloadable files (CV, etc.)
+├── .nojekyll           # Disables Jekyll processing on GitHub Pages
+└── README.md
 ```
 
-then
+## Customisation
 
-```console
-bundle exec jekyll serve --incremental
-```
-
-to serve the website locally and watch changes.
+- **Theme**: Dark mode by default with light/dark toggle. Colors defined as CSS custom properties in `css/style.css`.
+- **Content**: All content is in `index.html` — edit sections directly.
+- **Images**: Placeholder images are marked with `<!-- REPLACE: ... -->` comments in the HTML. Swap them with real images.
+- **Analytics**: Google Analytics tag `G-DGQ7BQQ1DV` is included in `index.html`.

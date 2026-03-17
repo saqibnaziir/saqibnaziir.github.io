@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saqib Nazir — AI Researcher | Computer Vision | 3D Imaging</title>
+  <meta name="description" content="Saqib Nazir — AI Researcher specializing in Computer Vision, Deep Learning, 3D Imaging, and Forensic AI. Research Associate at Edge Hill University, UK.">
+  <meta name="author" content="Saqib Nazir">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DGQ7BQQ1DV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DGQ7BQQ1DV');
+  </script>
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">SN<span class="accent-dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme">
+          <i class="fas fa-moon" id="theme-icon"></i>
+        </button>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="hero">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Saqib Nazir<span class="accent-dot">.</span></h1>
+      <p class="hero-tagline">AI Researcher · Computer Vision · 3D Imaging · Forensic AI</p>
+      <p class="hero-sub">Research Associate at IVC Lab, Edge Hill University, UK</p>
+      <div class="hero-buttons">
+        <a href="#experience" class="btn btn-primary">View My Work</a>
+        <a href="#publications" class="btn btn-outline">Publications</a>
+        <a href="mailto:saqib.nazir@edgehill.ac.uk" class="btn btn-outline">Contact</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/saqibnaziir" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/saqib-nazir-149467186" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://scholar.google.com/citations?user=3nLzb24AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        <a href="https://orcid.org/0000-0003-0098-1868" target="_blank" rel="noopener" aria-label="ORCID"><i class="ai ai-orcid"></i></a>
+        <a href="mailto:saqib.nazir@edgehill.ac.uk" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="about-grid">
+        <div class="about-photo reveal">
+          <!-- REPLACE: Professional headshot photo — currently using existing bio-photo-2.JPG -->
+          <div class="photo-wrapper">
+            <img src="images/bio-photo-2.JPG" alt="Saqib Nazir" loading="lazy">
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p>I am currently working as a <strong>Research Associate</strong> at the <a href="https://www.edgehill.ac.uk/research/ivc/" target="_blank" rel="noopener">IVC Lab</a>, Edge Hill University, Ormskirk, UK. I am developing interpretable AI models for single-cell phenotyping in forensic and clinical applications for the <a href="https://www.earlham.ac.uk/research-project/single-cell-analysis-forensic-science-scandi-project" target="_blank" rel="noopener">SCAnDi project</a>, funded by the UKRI Economic and Social Research Council.</p>
+
+          <p>My work focuses on morphological classification of individual cells (sperm, skin, blood) and assessing cell integrity, integrating LLM-based interpretation to generate biologically grounded explanations for model predictions, advancing responsible AI deployment in critical decision-making contexts. This includes multi-modal analysis combining microscopy imaging with molecular data, with applications spanning forensic science, clinical diagnostics, precision medicine, and DNA analysis.</p>
+
+          <p>Previously, I worked as a <strong>Postdoctoral Research Associate</strong> at the IMAGE Group within the <a href="https://www.greyc.fr/en/laboratory/" target="_blank" rel="noopener">GREYC Lab</a>, CNRS, University of Caen, Normandy, France, developing generative models for geometric and color completion of partial 3D color meshes of human scans, with applications in AR/VR/XR and 3D Avatar editing.</p>
+
+          <p>I completed my <strong>Ph.D.</strong> from the University Politehnica of Bucharest, specializing in 3D computer vision — developing innovative methods for monocular depth estimation utilizing defocus blur and image defocus deblurring. During my PhD, I worked as an Early-stage Researcher in the H2020-MSCA-ITN <a href="https://www.menelaos-nt.eu/" target="_blank" rel="noopener">MENELAOS-NT</a> project.</p>
+
+          <!-- Current Position Highlight -->
+          <div class="position-card">
+            <div class="position-badge">UKRI ESRC Funded</div>
+            <h3>SCAnDi Project — IVC Lab, Edge Hill University</h3>
+            <p>Single-cell analysis in forensic science: developing interpretable AI for cell phenotyping, integrating LLM-based interpretation for responsible AI deployment in forensic and clinical applications.</p>
+          </div>
+
+          <!-- Research Interest Tags -->
+          <div class="research-tags">
+            <span class="tag">Computer Vision</span>
+            <span class="tag">3D Imaging</span>
+            <span class="tag">Generative Models</span>
+            <span class="tag">Forensic AI</span>
+            <span class="tag">Depth Estimation</span>
+            <span class="tag">Medical Imaging</span>
+            <span class="tag">Single-cell Analysis</span>
+            <span class="tag">Defocus Deblurring</span>
+            <span class="tag">LLM Interpretation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ WORK EXPERIENCE ═══ -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <h2 class="section-title reveal">Work Experience</h2>
+      <div class="timeline">
+
+        <!-- Edge Hill / SCAnDi -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Research Associate</h3>
+                <p class="timeline-org">IVC Lab, Edge Hill University, UK</p>
+              </div>
+              <span class="timeline-date">2025 — Present</span>
+            </div>
+            <div class="timeline-visual">
+              <!-- REPLACE: Microscopy-style cell imagery or DNA helix visual for SCAnDi project -->
+              <div class="visual-placeholder visual-microscopy">
+                <div class="placeholder-label">Microscopy / Cell Imagery</div>
+              </div>
+            </div>
+            <div class="timeline-tags">
+              <span class="chip">AI</span><span class="chip">Deep Learning</span><span class="chip">Single-cell Analysis</span><span class="chip">Forensic Science</span>
+            </div>
+            <p>Working on the <strong>SCAnDi project</strong> (Single-cell and single molecule analysis for DNA identification), funded by the UKRI Economic and Social Research Council. The project brings together multidisciplinary expertise spanning single-cell genomics, DNA profiling, microfluidics, AI, and forensic genetics.</p>
+            <ul>
+              <li>Developing interpretable AI models for single-cell phenotyping in forensic and clinical applications</li>
+              <li>Morphological classification of individual cells (sperm, skin, blood) and assessing cell integrity</li>
+              <li>Integrating LLM-based interpretation to generate biologically grounded explanations for model predictions</li>
+              <li>Multi-modal analysis combining microscopy imaging with molecular data</li>
+              <li>Applications spanning forensic science, clinical diagnostics, precision medicine, and DNA analysis</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- GREYC PostDoc -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>PostDoc Research Associate</h3>
+                <p class="timeline-org">GREYC Lab, CNRS, University of Caen, France</p>
+              </div>
+              <span class="timeline-date">2024</span>
+            </div>
+            <div class="timeline-visual">
+              <!-- Using existing COSURIA project image — 3D human face mesh -->
+              <img src="images/projects/COSURIA.png" alt="COSURIA — 3D Human Face Mesh Completion" loading="lazy">
+            </div>
+            <div class="timeline-tags">
+              <span class="chip">3D Vision</span><span class="chip">Deep Learning</span><span class="chip">Generative Models</span><span class="chip">Mesh Completion</span>
+            </div>
+            <p>Research Associate on the <a href="https://lezoray.users.greyc.fr/projects/COSURIA/index.html" target="_blank" rel="noopener"><strong>COSURIA project</strong></a>. Designed methods based on generative neural networks to perform geometry and color completion on colored 3D meshes of people scans for extended reality applications.</p>
+            <ul>
+              <li>Developed generative models for completing both geometry and color in 3D color meshes</li>
+              <li>Consolidation of 3D scans of people to create 3D avatars for AR/VR/XR</li>
+              <li>Addressed challenges in imperfect 3D data: gaps, acquisition errors, retouching</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- CEOSpace Tech -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>PhD Researcher / Assistant Researcher</h3>
+                <p class="timeline-org">CEOSpace Tech, University Politehnica of Bucharest, Romania</p>
+              </div>
+              <span class="timeline-date">2021 — 2023</span>
+            </div>
+            <div class="timeline-visual">
+              <!-- REPLACE: Depth map image (jet colormap on indoor scene) — use a colorful RGB-D depth map visual -->
+              <div class="visual-placeholder visual-depthmap">
+                <div class="placeholder-label">Depth Map Visualization</div>
+              </div>
+            </div>
+            <div class="timeline-tags">
+              <span class="chip">Depth Estimation</span><span class="chip">Deep Learning</span><span class="chip">Computer Vision</span><span class="chip">DNN</span>
+            </div>
+            <p>Assistant Researcher for the <a href="https://www.menelaos-nt.eu/" target="_blank" rel="noopener"><strong>MENELAOS-NT</strong></a> European Training Network. Research focused on acquiring 3D scene geometry using passive devices and Deep Neural Networks for monocular depth estimation from defocus blur.</p>
+            <ul>
+              <li>Study of physical foundation for depth cues in images and evaluation of their potential</li>
+              <li>Elaboration of DNN-based solutions for depth inference from single-shot images by exploiting defocus cues</li>
+              <li>Definition of benchmarks for DNN training, validation and testing</li>
+              <li>Evaluation of depth map accuracy using indoor and outdoor image collections</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- INSITU Vigo -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Visiting Researcher</h3>
+                <p class="timeline-org">INSITU Engineering, University of Vigo, Spain</p>
+              </div>
+              <span class="timeline-date">2022</span>
+            </div>
+            <div class="timeline-visual">
+              <!-- Using existing iDFD project image — LiDAR/point cloud visual -->
+              <img src="images/projects/vigo1.png" alt="iDFD Dataset — LiDAR point cloud and depth data" loading="lazy">
+            </div>
+            <div class="timeline-tags">
+              <span class="chip">LiDAR</span><span class="chip">TOF Camera</span><span class="chip">Dataset</span><span class="chip">3D Indoor</span>
+            </div>
+            <p>Research stay exploring LiDAR and TOF cameras to develop the <a href="https://github.com/saqibnaziir/iDFD" target="_blank" rel="noopener"><strong>iDFD dataset</strong></a> — an open-source real dataset for Depth from Defocus for 3D indoor applications.</p>
+            <ul>
+              <li>Contribution to open-source projects for the team</li>
+              <li>Development of the iDFD dataset for depth-from-defocus research</li>
+              <li>Public presentation of the project and contributing to research papers</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- CiTIUS Santiago -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Visiting Researcher</h3>
+                <p class="timeline-org">CiTIUS, University of Santiago de Compostela, Spain</p>
+              </div>
+              <span class="timeline-date">2021</span>
+            </div>
+            <div class="timeline-visual">
+              <!-- Using existing CiTIUS project image — 2HDED:NET depth estimation and deblurring -->
+              <img src="images/projects/citius2.png" alt="2HDED:NET — Joint Depth Estimation and Image Deblurring" loading="lazy">
+            </div>
+            <div class="timeline-tags">
+              <span class="chip">Depth Estimation</span><span class="chip">Deblurring</span><span class="chip">DNN</span>
+            </div>
+            <p>Collaboration with CiTIUS for the <strong>MENELAOS-NT</strong> project, developing <strong>2HDED:NET</strong> for joint depth estimation and image deblurring from defocused images.</p>
+            <ul>
+              <li>Development of 2HDED:NET architecture</li>
+              <li>Training and testing on NYU-Depth v2 and Make3D datasets for DFD and image deblurring</li>
+              <li>Public presentation of results and contributing to research papers</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- MIDL COMSATS -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>ML Research Intern</h3>
+                <p class="timeline-org">MIDL-NCAI, COMSATS University Islamabad, Pakistan</p>
+              </div>
+              <span class="timeline-date">2017 — 2020</span>
+            </div>
+            <div class="timeline-visual">
+              <!-- Using existing SRGAN image — CT scan denoising comparison -->
+              <img src="images/projects/SRGAN.png" alt="SRGAN — Low-dose CT Scan Denoising" loading="lazy">
+            </div>
+            <div class="timeline-tags">
+              <span class="chip">GANs</span><span class="chip">Medical Imaging</span><span class="chip">CT Scan</span><span class="chip">Deep Learning</span>
+            </div>
+            <p>Master's research at the Medical Imaging and Diagnostic Lab (MIDL) affiliated with the National Center of Artificial Intelligence (NCAI) under HEC Pakistan, developing CAD system solutions using advanced Computer Vision and Deep Learning.</p>
+            <ul>
+              <li>Computer Aided Diagnostics (CAD) using Generative Adversarial Networks</li>
+              <li>Master's thesis: "Generative Adversarial Networks for Enhancing Low-Dose CT Scans"</li>
+              <li>Research in AI, Machine Learning, Deep Learning, and Computer Vision</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EDUCATION ═══ -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="education-grid">
+
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-content">
+            <span class="edu-degree">Ph.D. in Electronics, Telecommunications, and Information Technology</span>
+            <span class="edu-dates">2021 — 2023</span>
+            <p class="edu-institution">University POLITEHNICA of Bucharest (UPB), Romania</p>
+            <div class="edu-details">
+              <p class="edu-thesis"><strong>Thesis:</strong> "Deep Depth from Defocus for Near Range and In-Situ 3D Exploration"</p>
+              <p><strong>Supervisors:</strong> Prof. Daniela Coltuc &amp; <a href="http://ceospacetech.pub.ro/index.php/ceospacetech-members/10-members/84-members-mihai-datcu" target="_blank" rel="noopener">Prof. Mihai Datcu</a></p>
+              <p><strong>Lab:</strong> <a href="http://ceospacetech.pub.ro/" target="_blank" rel="noopener">CEOSpace Tech</a></p>
+            </div>
+            <!-- REPLACE: University Politehnica Bucharest logo -->
+            <div class="edu-logo-placeholder"></div>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-content">
+            <span class="edu-degree">M.Sc. in Computer Science and Artificial Intelligence</span>
+            <span class="edu-dates">2017 — 2020</span>
+            <p class="edu-institution">COMSATS University Islamabad, Pakistan</p>
+            <div class="edu-details">
+              <p><strong>Thesis:</strong> "Generative Adversarial Networks for Enhancing Low-Dose CT Scans"</p>
+            </div>
+            <!-- REPLACE: COMSATS University logo -->
+            <div class="edu-logo-placeholder"></div>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-content">
+            <span class="edu-degree">B.Sc. in Computer Science</span>
+            <span class="edu-dates">2012 — 2016</span>
+            <p class="edu-institution">COMSATS University Islamabad, Pakistan</p>
+            <!-- REPLACE: COMSATS University logo -->
+            <div class="edu-logo-placeholder"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Awards -->
+      <h3 class="subsection-title reveal">Awards &amp; Fellowships</h3>
+      <div class="awards-grid">
+        <div class="award-card reveal">
+          <div class="award-icon"><i class="fas fa-award"></i></div>
+          <div>
+            <h4>Marie Skłodowska-Curie Actions (MSCA) Fellowship</h4>
+            <p>European Commission H2020 · 2020 — 2024</p>
+          </div>
+        </div>
+        <div class="award-card reveal">
+          <div class="award-icon"><i class="fas fa-award"></i></div>
+          <div>
+            <h4>PEEF Scholarship</h4>
+            <p>COMSATS University Islamabad · 2017 — 2020</p>
+          </div>
+        </div>
+        <div class="award-card reveal">
+          <div class="award-icon"><i class="fas fa-award"></i></div>
+          <div>
+            <h4>Fully Funded Undergraduate Scholarship</h4>
+            <p>COMSATS University Islamabad · 2012 — 2016</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PUBLICATIONS ═══ -->
+  <section class="section section-alt" id="publications">
+    <div class="container">
+      <h2 class="section-title reveal">Publications</h2>
+      <p class="section-subtitle reveal">Selected publications. For the full list, visit my <a href="https://scholar.google.com/citations?user=3nLzb24AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> profile.</p>
+
+      <div class="pub-filters reveal">
+        <button class="pub-filter active" data-year="all">All</button>
+        <button class="pub-filter" data-year="2023">2023</button>
+        <button class="pub-filter" data-year="2022">2022</button>
+        <button class="pub-filter" data-year="2021">2021</button>
+        <button class="pub-filter" data-year="2018">2018</button>
+      </div>
+
+      <div class="pub-list">
+
+        <div class="pub-card reveal" data-year="2023">
+          <span class="pub-year">2023</span>
+          <div class="pub-content">
+            <h4>Depth Estimation and Image Restoration by Deep Learning from Defocused Images</h4>
+            <p class="pub-authors">Saqib Nazir, Lorenzo Vaquero, Manuel Mucientes, Víctor M. Brea, Daniela Coltuc</p>
+            <p class="pub-venue">IEEE Transactions on Computational Imaging</p>
+            <div class="pub-links">
+              <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3nLzb24AAAAJ&citation_for_view=3nLzb24AAAAJ:LkGwnXOMwfcC" target="_blank" rel="noopener" class="pub-link"><i class="fas fa-external-link-alt"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-card reveal" data-year="2023">
+          <span class="pub-year">2023</span>
+          <div class="pub-content">
+            <h4>iDFD: A Dataset Annotated for Depth and Defocus</h4>
+            <p class="pub-authors">Saqib Nazir, Zhouyan Qiu, Daniela Coltuc, Joaquín Martínez-Sánchez, Pedro Arias</p>
+            <p class="pub-venue">SCIA — Scandinavian Conference on Image Analysis</p>
+            <div class="pub-links">
+              <a href="https://github.com/saqibnaziir/iDFD" target="_blank" rel="noopener" class="pub-link"><i class="fab fa-github"></i> Dataset</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-card reveal" data-year="2023">
+          <span class="pub-year">2023</span>
+          <div class="pub-content">
+            <h4>Self-supervised Defocus Map Estimation and Auxiliary Image Deblurring Given a Single Defocused Image</h4>
+            <p class="pub-authors">Saqib Nazir et al.</p>
+            <p class="pub-venue">DICTA — Digital Image Computing: Techniques and Applications</p>
+            <div class="pub-links">
+              <a href="https://www.dictaconference.org/" target="_blank" rel="noopener" class="pub-link"><i class="fas fa-external-link-alt"></i> Conference</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-card reveal" data-year="2022">
+          <span class="pub-year">2022</span>
+          <div class="pub-content">
+            <h4>2HDED:NET for Joint Depth Estimation and Image Deblurring from a Single Out-of-Focus Image</h4>
+            <p class="pub-authors">Saqib Nazir, Lorenzo Vaquero, Manuel Mucientes, Víctor M. Brea, Daniela Coltuc</p>
+            <p class="pub-venue">IEEE International Conference on Image Processing (ICIP)</p>
+            <div class="pub-links">
+              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9897352" target="_blank" rel="noopener" class="pub-link"><i class="fas fa-external-link-alt"></i> IEEE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-card reveal" data-year="2022">
+          <span class="pub-year">2022</span>
+          <div class="pub-content">
+            <h4>DFD and Image Restoration using DNN</h4>
+            <p class="pub-authors">Saqib Nazir</p>
+            <p class="pub-venue">5th European Machine Vision Forum (EMVA)</p>
+            <div class="pub-links">
+              <a href="https://emvf-2022.emva.b2match.io/" target="_blank" rel="noopener" class="pub-link"><i class="fas fa-external-link-alt"></i> Forum</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-card reveal" data-year="2021">
+          <span class="pub-year">2021</span>
+          <div class="pub-content">
+            <h4>Edge-preserving Smoothing Regularization for Monocular Depth Estimation</h4>
+            <p class="pub-authors">Saqib Nazir, Daniela Coltuc</p>
+            <p class="pub-venue">26th International Conference on Automation and Computing (ICAC)</p>
+            <div class="pub-links">
+              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9594153" target="_blank" rel="noopener" class="pub-link"><i class="fas fa-external-link-alt"></i> IEEE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-card reveal" data-year="2018">
+          <span class="pub-year">2018</span>
+          <div class="pub-content">
+            <h4>Cuckoo Optimization Algorithm Based Job Scheduling Using Cloud and Fog Computing in Smart Grid</h4>
+            <p class="pub-authors">Saqib Nazir, Sundas Shafiq, Zafar Iqbal, Muhammad Zeeshan, Subhan Tariq, Nadeem Javaid</p>
+            <p class="pub-venue">INCoS — International Conference on Intelligent Networking and Collaborative Systems</p>
+            <div class="pub-links">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-319-98557-2_4" target="_blank" rel="noopener" class="pub-link"><i class="fas fa-external-link-alt"></i> Springer</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-card reveal" data-year="2018">
+          <span class="pub-year">2018</span>
+          <div class="pub-content">
+            <h4>Priority Based Load Balancing in Cloud and Fog Based Systems</h4>
+            <p class="pub-authors">Subhan Tariq, Nadeem Javaid, Mahad Majeed, Fahad Ahmed, Saqib Nazir</p>
+            <p class="pub-venue">BWCCA — Broadband and Wireless Computing, Communication and Applications</p>
+            <div class="pub-links">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-030-02613-4_65" target="_blank" rel="noopener" class="pub-link"><i class="fas fa-external-link-alt"></i> Springer</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pub-scholar reveal">
+        <a href="https://scholar.google.com/citations?user=3nLzb24AAAAJ&hl=en" target="_blank" rel="noopener" class="btn btn-primary">
+          <i class="ai ai-google-scholar"></i> View All on Google Scholar
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROJECTS ═══ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-visual">
+            <!-- REPLACE: Microscopy cell images / forensic DNA visualisation for SCAnDi -->
+            <div class="visual-placeholder visual-microscopy">
+              <div class="placeholder-label">Microscopy / Cell Imagery</div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>SCAnDi — Single-cell AI for Forensic Science</h3>
+            <p>Interpretable AI models for single-cell phenotyping. Morphological classification of cells with LLM-based explanations. Multi-modal analysis combining microscopy and molecular data.</p>
+            <div class="project-tags">
+              <span class="chip">Python</span><span class="chip">PyTorch</span><span class="chip">LLMs</span><span class="chip">Microscopy</span>
+            </div>
+            <div class="project-links">
+              <a href="https://www.earlham.ac.uk/research-project/single-cell-analysis-forensic-science-scandi-project" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-visual">
+            <img src="images/projects/COSURIA.png" alt="COSURIA — 3D Mesh Completion" loading="lazy">
+          </div>
+          <div class="project-content">
+            <h3>COSURIA — 3D Color Mesh Completion</h3>
+            <p>Generative neural networks for geometry and color completion on 3D meshes of human scans. Creating 3D avatars for extended reality (AR/VR/XR) applications.</p>
+            <div class="project-tags">
+              <span class="chip">Python</span><span class="chip">PyTorch</span><span class="chip">Open3D</span><span class="chip">3D Meshes</span>
+            </div>
+            <div class="project-links">
+              <a href="https://lezoray.users.greyc.fr/projects/COSURIA/index.html" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-visual">
+            <img src="images/projects/citius2.png" alt="2HDED:NET — Depth Estimation and Deblurring" loading="lazy">
+          </div>
+          <div class="project-content">
+            <h3>2HDED:NET — Depth Estimation &amp; Deblurring</h3>
+            <p>Joint depth estimation and image deblurring from a single out-of-focus image. Trained on NYU-Depth v2 and Make3D datasets.</p>
+            <div class="project-tags">
+              <span class="chip">Python</span><span class="chip">PyTorch</span><span class="chip">DFD</span><span class="chip">Deblurring</span>
+            </div>
+            <div class="project-links">
+              <a href="https://ieeexplore.ieee.org/document/9897352" target="_blank" rel="noopener"><i class="fas fa-file-alt"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-visual">
+            <img src="images/projects/vigo1.png" alt="iDFD Dataset" loading="lazy">
+          </div>
+          <div class="project-content">
+            <h3>iDFD — Indoor Depth from Defocus Dataset</h3>
+            <p>Open-source real-world dataset for Depth from Defocus captured using LiDAR and TOF cameras for 3D indoor applications.</p>
+            <div class="project-tags">
+              <span class="chip">LiDAR</span><span class="chip">TOF</span><span class="chip">Dataset</span><span class="chip">Python</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/saqibnaziir/iDFD" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-visual">
+            <img src="images/projects/SRGAN.png" alt="SRGAN — CT Scan Denoising" loading="lazy">
+          </div>
+          <div class="project-content">
+            <h3>SRGAN — Low-dose CT Scan Denoising</h3>
+            <p>Generative Adversarial Networks for enhancing low-dose CT scans. Computer Aided Diagnostics system using advanced Deep Learning techniques.</p>
+            <div class="project-tags">
+              <span class="chip">GANs</span><span class="chip">Medical Imaging</span><span class="chip">TensorFlow</span><span class="chip">Python</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/saqibnaziir/SRGAN-Low-dose-CT-Scan-Denoising" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-visual">
+            <!-- REPLACE: Depth map image — jet colormap blurry-to-sharp transition for MENELAOS depth estimation -->
+            <div class="visual-placeholder visual-depthmap">
+              <div class="placeholder-label">Depth Map / 3D Scene</div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>MENELAOS-NT — Multimodal Sensor Fusion</h3>
+            <p>Novel technologies for multimodal–multi-sensor data fusion. Advancing 3D imaging, perception, and environmental interaction using computer vision and machine learning.</p>
+            <div class="project-tags">
+              <span class="chip">Python</span><span class="chip">PyTorch</span><span class="chip">Depth Estimation</span><span class="chip">3D Vision</span>
+            </div>
+            <div class="project-links">
+              <a href="https://www.menelaos-nt.eu/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Project</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SKILLS ═══ -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">Skills &amp; Expertise</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group reveal">
+          <h3><i class="fas fa-eye"></i> Computer Vision</h3>
+          <div class="skill-chips">
+            <span class="skill-chip">Monocular Depth Estimation</span>
+            <span class="skill-chip">Image Deblurring</span>
+            <span class="skill-chip">Object Detection</span>
+            <span class="skill-chip">Image Segmentation</span>
+            <span class="skill-chip">Medical Image Analysis</span>
+            <span class="skill-chip">Single-cell Analysis</span>
+            <span class="skill-chip">OpenCV</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h3><i class="fas fa-brain"></i> Deep Learning Frameworks</h3>
+          <div class="skill-chips">
+            <span class="skill-chip">PyTorch</span>
+            <span class="skill-chip">TensorFlow</span>
+            <span class="skill-chip">GANs</span>
+            <span class="skill-chip">Diffusion Models</span>
+            <span class="skill-chip">Transformers</span>
+            <span class="skill-chip">LLMs</span>
+            <span class="skill-chip">CUDA</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h3><i class="fas fa-cube"></i> 3D Imaging &amp; Tools</h3>
+          <div class="skill-chips">
+            <span class="skill-chip">3D Mesh Processing</span>
+            <span class="skill-chip">Point Cloud Processing</span>
+            <span class="skill-chip">Open3D</span>
+            <span class="skill-chip">PCL</span>
+            <span class="skill-chip">LiDAR</span>
+            <span class="skill-chip">Depth from Defocus</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h3><i class="fas fa-code"></i> Programming</h3>
+          <div class="skill-chips">
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">C++</span>
+            <span class="skill-chip">MATLAB</span>
+            <span class="skill-chip">Git</span>
+            <span class="skill-chip">Docker</span>
+            <span class="skill-chip">Linux</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h3><i class="fas fa-flask"></i> Research Tools</h3>
+          <div class="skill-chips">
+            <span class="skill-chip">LaTeX</span>
+            <span class="skill-chip">Jupyter</span>
+            <span class="skill-chip">Weights &amp; Biases</span>
+            <span class="skill-chip">Overleaf</span>
+            <span class="skill-chip">Scientific Writing</span>
+            <span class="skill-chip">Peer Review</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <a href="#hero" class="footer-logo">Saqib Nazir<span class="accent-dot">.</span></a>
+          <p>AI Researcher · Computer Vision · 3D Imaging</p>
+        </div>
+        <div class="footer-socials">
+          <a href="https://github.com/saqibnaziir" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/saqib-nazir-149467186" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://scholar.google.com/citations?user=3nLzb24AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://orcid.org/0000-0003-0098-1868" target="_blank" rel="noopener" aria-label="ORCID"><i class="ai ai-orcid"></i></a>
+          <a href="mailto:saqib.nazir@edgehill.ac.uk" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Saqib Nazir. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
