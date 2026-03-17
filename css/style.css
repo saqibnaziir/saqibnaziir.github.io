@@ -294,6 +294,13 @@ h1, h2, h3, h4 {
   overflow: hidden;
 }
 
+#hero-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .hero-overlay {
   position: absolute;
   inset: 0;

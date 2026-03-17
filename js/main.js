@@ -1,66 +1,103 @@
 document.documentElement.classList.add('js');
 
 /* ═══════════════════════════════════════
-   HERO BACKGROUND — Vanta NET
+   HERO CANVAS — Neural Network Particle Animation
    ═══════════════════════════════════════ */
 
 (function () {
-  var hero = document.getElementById('hero');
-  if (!hero || !window.VANTA || !window.VANTA.NET) return;
+  var canvas = document.getElementById('hero-canvas');
+  if (!canvas) return;
+  var ctx = canvas.getContext('2d');
+  var particles = [];
+  var animationId;
+  var w;
+  var h;
 
-  var vantaEffect = null;
+  function resize() {
+    w = canvas.width = canvas.offsetWidth;
+    h = canvas.height = canvas.offsetHeight;
+  }
+
+  function getParticleCount() {
+    return window.innerWidth < 768 ? 40 : 70;
+  }
 
   function isDark() {
     return document.documentElement.getAttribute('data-theme') !== 'light';
   }
 
-  function getThemeOptions() {
-    if (isDark()) {
-      return {
-        color: 0x00d4ff,
-        backgroundColor: 0x0a0e17
-      };
-    }
-    return {
-      color: 0x0284c7,
-      backgroundColor: 0xf8fafc
-    };
-  }
-
-  function initVanta() {
-    var theme = getThemeOptions();
-    vantaEffect = window.VANTA.NET({
-      el: "#hero",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.0,
-      minWidth: 200.0,
-      scale: 1.0,
-      scaleMobile: 1.0,
-      points: 11.0,
-      maxDistance: 22.0,
-      spacing: 17.0,
-      color: theme.color,
-      backgroundColor: theme.backgroundColor
-    });
-  }
-
-  function refreshVantaTheme() {
-    if (!vantaEffect) return;
-    var theme = getThemeOptions();
-    if (typeof vantaEffect.setOptions === "function") {
-      vantaEffect.setOptions(theme);
+  function createParticles() {
+    var count = getParticleCount();
+    particles = [];
+    for (var i = 0; i < count; i++) {
+      particles.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        vx: (Math.random() - 0.5) * 0.4,
+        vy: (Math.random() - 0.5) * 0.4,
+        r: Math.random() * 2 + 1
+      });
     }
   }
 
-  try {
-    initVanta();
-  } catch (error) {
-    vantaEffect = null;
+  function draw() {
+    ctx.clearRect(0, 0, w, h);
+    var dark = isDark();
+    var accentR = dark ? 0 : 2;
+    var accentG = dark ? 212 : 132;
+    var accentB = dark ? 255 : 199;
+
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      if (p.x < 0 || p.x > w) p.vx *= -1;
+      if (p.y < 0 || p.y > h) p.vy *= -1;
+
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = "rgba(" + accentR + ", " + accentG + ", " + accentB + ", 0.5)";
+      ctx.fill();
+
+      for (var j = i + 1; j < particles.length; j++) {
+        var q = particles[j];
+        var dx = p.x - q.x;
+        var dy = p.y - q.y;
+        var dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < 150) {
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(q.x, q.y);
+          ctx.strokeStyle = "rgba(" + accentR + ", " + accentG + ", " + accentB + ", " + (0.12 * (1 - dist / 150)) + ")";
+          ctx.lineWidth = 0.8;
+          ctx.stroke();
+        }
+      }
+    }
+    animationId = requestAnimationFrame(draw);
   }
 
-  window._heroCanvasRedraw = refreshVantaTheme;
+  function init() {
+    resize();
+    createParticles();
+    draw();
+  }
+
+  var resizeTimeout;
+  window.addEventListener('resize', function () {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(function () {
+      resize();
+      createParticles();
+    }, 200);
+  });
+
+  init();
+
+  window._heroCanvasRedraw = function () {
+    cancelAnimationFrame(animationId);
+    draw();
+  };
 })();
 
 /* ═══════════════════════════════════════
