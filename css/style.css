@@ -1150,6 +1150,22 @@ h1, h2, h3, h4 {
   transform: scale(1.05);
 }
 
+/* App icon visual (e.g. side projects) — centered icon on branded background */
+.project-visual--app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ff8a3d 0%, #ff5e1a 100%);
+}
+
+.project-visual--app img {
+  width: auto;
+  height: 72%;
+  max-width: 80%;
+  object-fit: contain;
+  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.28));
+}
+
 .project-visual .visual-placeholder {
   height: 100%;
   border-radius: 0;
