@@ -140,15 +140,22 @@
       </div>
 
       <div class="hero-right">
-        <!-- Interactive depth-parallax demo (driven by my monocular depth model) -->
-        <div class="depth-demo" id="depth-demo">
-          <canvas id="depth-canvas" aria-hidden="true"></canvas>
-          <img class="depth-demo-fallback" src="images/projects/depth/RGB.png" alt="Monocular depth estimation — single-image 3D parallax demo">
-          <div class="depth-demo-bar">
-            <span class="depth-demo-tag"><span class="live-dot"></span> Monocular Depth · My Model</span>
-            <span class="depth-demo-hint"><i class="fas fa-arrows-up-down-left-right"></i> Move cursor</span>
+        <!-- Interactive RGB -> predicted depth comparison (my monocular depth model) -->
+        <figure class="hero-demo">
+          <div class="ba-slider" data-ba>
+            <img class="ba-img" src="images/projects/depth/Depth.png" alt="Predicted depth map">
+            <div class="ba-before">
+              <img class="ba-img" src="images/projects/depth/RGB.png" alt="Input RGB image">
+            </div>
+            <div class="ba-handle" aria-hidden="true"></div>
+            <span class="ba-label ba-label-l">RGB input</span>
+            <span class="ba-label ba-label-r">Predicted depth</span>
+            <input class="ba-range" type="range" min="0" max="100" value="50" aria-label="Drag to compare RGB input and the predicted depth map">
           </div>
-        </div>
+          <figcaption class="hero-demo-cap">
+            <span class="live-dot"></span> Monocular Depth Estimation · my model — <span class="hero-demo-hint">drag to reveal</span>
+          </figcaption>
+        </figure>
       </div>
     </div>
     <div class="scroll-indicator" aria-hidden="true">
@@ -225,7 +232,7 @@
     <div class="container">
       <p class="about-eyebrow reveal">Research, Live</p>
       <h2 class="section-title reveal">Interactive Demos</h2>
-      <p class="section-subtitle reveal">Not just described — explore the actual outputs of my work. Drag, slide, and move your cursor.</p>
+      <p class="section-subtitle reveal">Not just described — explore the actual outputs of my work. Drag the sliders and rotate the 3D mesh.</p>
 
       <div class="demos-grid">
 
@@ -261,6 +268,27 @@
             <p>Drag the slider: a defocused photo (left) restored to an all-in-focus image by 2HDED:NET (right), my joint depth-estimation &amp; deblurring network.</p>
             <div class="project-tags">
               <span class="chip">Deblurring</span><span class="chip">Depth from Defocus</span><span class="chip">PyTorch</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lung CT Denoising Slider (Master's thesis) -->
+        <div class="demo-card reveal">
+          <div class="ba-slider" data-ba>
+            <img class="ba-img" src="images/projects/depth/Lung_ours.jpg" alt="Denoised low-dose lung CT scan (ours)">
+            <div class="ba-before">
+              <img class="ba-img" src="images/projects/depth/Lung_noisy.jpg" alt="Noisy low-dose lung CT scan">
+            </div>
+            <div class="ba-handle" aria-hidden="true"></div>
+            <span class="ba-label ba-label-l">Low-dose (noisy)</span>
+            <span class="ba-label ba-label-r">GAN denoised (ours)</span>
+            <input class="ba-range" type="range" min="0" max="100" value="50" aria-label="Drag to compare noisy low-dose lung CT and the GAN-denoised result">
+          </div>
+          <div class="demo-meta">
+            <h3>Low-Dose Lung CT Denoising</h3>
+            <p>My Master's thesis: a Generative Adversarial Network that denoises low-dose lung CT scans (left) into clean, diagnostic-quality images (right) — recovering detail while cutting patient radiation dose.</p>
+            <div class="project-tags">
+              <span class="chip">GANs</span><span class="chip">Medical Imaging</span><span class="chip">CT Scan</span><span class="chip">TensorFlow</span>
             </div>
           </div>
         </div>
@@ -945,7 +973,6 @@
   </button>
 
   <script src="js/main.js"></script>
-  <script src="js/depth-hero.js"></script>
   <script type="module" src="js/showcase.js"></script>
 </body>
 </html>
