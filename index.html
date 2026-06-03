@@ -6,6 +6,40 @@
   <title>Saqib Nazir — AI Researcher | Computer Vision | 3D Imaging</title>
   <meta name="description" content="Saqib Nazir — AI Researcher specializing in Computer Vision, Deep Learning, 3D Imaging, and Forensic AI. Research Associate at Edge Hill University, UK.">
   <meta name="author" content="Saqib Nazir">
+  <link rel="canonical" href="https://saqibnaziir.github.io/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://saqibnaziir.github.io/">
+  <meta property="og:title" content="Saqib Nazir — AI Researcher | Computer Vision | 3D Imaging">
+  <meta property="og:description" content="AI Researcher specializing in Computer Vision, Deep Learning, 3D Imaging, and Forensic AI. Research Associate at Edge Hill University, UK.">
+  <meta property="og:image" content="https://saqibnaziir.github.io/images/bio-photo-2.JPG">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Saqib Nazir — AI Researcher | Computer Vision | 3D Imaging">
+  <meta name="twitter:description" content="AI Researcher specializing in Computer Vision, Deep Learning, 3D Imaging, and Forensic AI.">
+  <meta name="twitter:image" content="https://saqibnaziir.github.io/images/bio-photo-2.JPG">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Saqib Nazir",
+    "jobTitle": "AI Researcher (Research Associate)",
+    "affiliation": { "@type": "Organization", "name": "IVC Lab, Edge Hill University" },
+    "url": "https://saqibnaziir.github.io/",
+    "image": "https://saqibnaziir.github.io/images/bio-photo-2.JPG",
+    "email": "saqib.nazir1993@gmail.com",
+    "knowsAbout": ["Computer Vision", "Deep Learning", "3D Imaging", "Monocular Depth Estimation", "Generative Models", "Forensic AI", "Medical Imaging"],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=3nLzb24AAAAJ&hl=en",
+      "https://github.com/saqibnaziir",
+      "https://www.linkedin.com/in/saqib-nazir-149467186",
+      "https://orcid.org/0000-0003-0098-1868"
+    ]
+  }
+  </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +47,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Three.js module resolution for the lazy-loaded 3D viewer -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DGQ7BQQ1DV"></script>
@@ -31,6 +75,7 @@
       <a href="#hero" class="nav-logo">SN<span class="accent-dot">.</span></a>
       <ul class="nav-links" id="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#demos">Demos</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#publications">Publications</a></li>
@@ -53,43 +98,57 @@
   <section class="hero" id="hero">
     <canvas id="hero-canvas" aria-hidden="true"></canvas>
     <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <p class="hero-greeting">Hello, I'm</p>
-      <h1 class="hero-name">Saqib Nazir<span class="accent-dot">.</span></h1>
-      <p class="hero-tagline">AI Researcher · Computer Vision · 3D Imaging · Forensic AI</p>
-      <p class="hero-sub">Research Associate at IVC Lab, Edge Hill University, UK</p>
+    <div class="hero-content hero-grid">
+      <div class="hero-left">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Saqib Nazir<span class="accent-dot">.</span></h1>
+        <p class="hero-tagline">AI Researcher · Computer Vision · 3D Imaging · Forensic AI</p>
+        <p class="hero-sub">Research Associate at IVC Lab, Edge Hill University, UK</p>
 
-      <!-- Stats Highlights -->
-      <div class="hero-stats">
-        <div class="stat-item">
-          <span class="stat-number">4+</span>
-          <span class="stat-label">Projects</span>
+        <!-- Stats Highlights -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">20+</span>
+            <span class="stat-label">Publications</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100+</span>
+            <span class="stat-label">Citations</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">6+</span>
+            <span class="stat-label">Years Research</span>
+          </div>
         </div>
-        <div class="stat-item">
-          <span class="stat-number">20+</span>
-          <span class="stat-label">Publications</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-number">100+</span>
-          <span class="stat-label">Citations</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-number">6+</span>
-          <span class="stat-label">Years Research</span>
-        </div>
-      </div>
 
-      <div class="hero-buttons">
-        <a href="#experience" class="btn btn-primary">View My Work</a>
-        <a href="#publications" class="btn btn-outline">Publications</a>
-        <a href="mailto:saqib.nazir1993@gmail.com" class="btn btn-outline">Contact</a>
-      </div>
-      <div class="hero-socials">
-        <a href="https://github.com/saqibnaziir" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/saqib-nazir-149467186" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://scholar.google.com/citations?user=3nLzb24AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-        <a href="https://orcid.org/0000-0003-0098-1868" target="_blank" rel="noopener" aria-label="ORCID"><i class="ai ai-orcid"></i></a>
+        <div class="hero-buttons">
+          <a href="#experience" class="btn btn-primary">View My Work</a>
+          <a href="files/CV_Saqib.pdf" target="_blank" rel="noopener" class="btn btn-outline"><i class="fas fa-file-arrow-down"></i> Download CV</a>
+          <a href="mailto:saqib.nazir1993@gmail.com" class="btn btn-outline">Contact</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/saqibnaziir" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/saqib-nazir-149467186" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://scholar.google.com/citations?user=3nLzb24AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://orcid.org/0000-0003-0098-1868" target="_blank" rel="noopener" aria-label="ORCID"><i class="ai ai-orcid"></i></a>
           <a href="mailto:saqib.nazir1993@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <!-- Interactive depth-parallax demo (driven by my monocular depth model) -->
+        <div class="depth-demo" id="depth-demo">
+          <canvas id="depth-canvas" aria-hidden="true"></canvas>
+          <img class="depth-demo-fallback" src="images/projects/depth/RGB.png" alt="Monocular depth estimation — single-image 3D parallax demo">
+          <div class="depth-demo-bar">
+            <span class="depth-demo-tag"><span class="live-dot"></span> Monocular Depth · My Model</span>
+            <span class="depth-demo-hint"><i class="fas fa-arrows-up-down-left-right"></i> Move cursor</span>
+          </div>
+        </div>
       </div>
     </div>
     <div class="scroll-indicator" aria-hidden="true">
@@ -157,6 +216,55 @@
             <span class="tag">LLM Interpretation</span>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ INTERACTIVE DEMOS ═══ -->
+  <section class="section section-alt" id="demos">
+    <div class="container">
+      <p class="about-eyebrow reveal">Research, Live</p>
+      <h2 class="section-title reveal">Interactive Demos</h2>
+      <p class="section-subtitle reveal">Not just described — explore the actual outputs of my work. Drag, slide, and move your cursor.</p>
+
+      <div class="demos-grid">
+
+        <!-- 3D Face Mesh Viewer -->
+        <div class="demo-card reveal">
+          <div class="viewer3d" id="face-viewer" aria-label="Interactive 3D face mesh — drag to rotate">
+            <div class="viewer3d-loading" id="viewer3d-loading">Loading 3D mesh…</div>
+            <div class="viewer3d-hint"><i class="fas fa-arrows-rotate"></i> Drag to rotate</div>
+          </div>
+          <div class="demo-meta">
+            <h3>3D Human Face Reconstruction</h3>
+            <p>A reconstructed 3D face mesh from my work on geometry &amp; color completion of 3D human scans (COSURIA). Rendered live in your browser.</p>
+            <div class="project-tags">
+              <span class="chip">3D Meshes</span><span class="chip">WebGL</span><span class="chip">Three.js</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Before/After Deblurring Slider -->
+        <div class="demo-card reveal">
+          <div class="ba-slider" data-ba>
+            <img class="ba-img" src="images/projects/depth/2HDED_All_in_FOcus.png" alt="All-in-focus result from 2HDED:NET">
+            <div class="ba-before">
+              <img class="ba-img" src="images/projects/depth/Defocus.png" alt="Defocused input image">
+            </div>
+            <div class="ba-handle" aria-hidden="true"></div>
+            <span class="ba-label ba-label-l">Defocused input</span>
+            <span class="ba-label ba-label-r">2HDED:NET (ours)</span>
+            <input class="ba-range" type="range" min="0" max="100" value="50" aria-label="Drag to compare defocused input and deblurred result">
+          </div>
+          <div class="demo-meta">
+            <h3>Single-Image Defocus Deblurring</h3>
+            <p>Drag the slider: a defocused photo (left) restored to an all-in-focus image by 2HDED:NET (right), my joint depth-estimation &amp; deblurring network.</p>
+            <div class="project-tags">
+              <span class="chip">Deblurring</span><span class="chip">Depth from Defocus</span><span class="chip">PyTorch</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -837,5 +945,7 @@
   </button>
 
   <script src="js/main.js"></script>
+  <script src="js/depth-hero.js"></script>
+  <script type="module" src="js/showcase.js"></script>
 </body>
 </html>
